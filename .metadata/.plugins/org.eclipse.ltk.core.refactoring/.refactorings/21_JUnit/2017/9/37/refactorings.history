@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;junit4.Pruebas_01&apos; to &apos;_01_Basico&apos;&#x0D;&#x0A;- Original project: &apos;21_JUnit&apos;&#x0D;&#x0A;- Original element: &apos;junit4.Pruebas_01&apos;&#x0D;&#x0A;- Renamed element: &apos;junit4._01_Basico&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Pruebas_01&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/test&lt;junit4{Pruebas_01.java[Pruebas_01" matchStrategy="1" name="_01_Basico" qualified="false" references="true" similarDeclarations="false" stamp="1505339954286" textual="false" version="1.0"/>
+</session>

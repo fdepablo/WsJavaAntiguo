@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;client.SocketClient&apos; to &apos;SocketClientRepetitivo&apos;&#x0D;&#x0A;- Original project: &apos;20_SocketClient&apos;&#x0D;&#x0A;- Original element: &apos;client.SocketClient&apos;&#x0D;&#x0A;- Renamed element: &apos;client.SocketClientRepetitivo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SocketClient&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;client{SocketClient.java[SocketClient" matchStrategy="1" name="SocketClientRepetitivo" qualified="false" references="true" similarDeclarations="false" stamp="1570546867378" textual="false" version="1.0"/>
+</session>

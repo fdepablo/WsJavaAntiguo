@@ -1,0 +1,10 @@
+INDEX VERSION 1.4+D:\Users\vened\Pronoide\20_Material\Java\Core\WorkspaceJava\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1408694062.index
+2867633473.index
+2722425947.index
+2286005158.index
+2236912738.index
+4185870662.index
+1803738718.index
+2356609312.index
+3506751151.index

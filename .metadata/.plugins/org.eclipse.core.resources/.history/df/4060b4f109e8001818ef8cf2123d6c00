@@ -1,0 +1,49 @@
+
+public class ClasePrincipal {
+
+	//todos los programas tienen una entrada estandar al arrancar
+	//dichos parametros entran por la variable argumentos
+	public static void main(String[] argumentos) {
+		if(argumentos.length >= 2) {
+			String param1 = argumentos[0];
+			String param2 = argumentos[1];
+			String param3 = argumentos[2];
+			
+			System.out.println(param1);
+			System.out.println(param2);
+			System.out.println(param3);
+		}else {
+			System.out.println("No han entrado parametros");
+		}
+		
+		//String s;
+		String s = new String("pepe");
+		String d = new String("pepe");
+		if(s == d) {
+			System.out.println("Son iguales");
+		}else {
+			System.out.println("Son diferentes");
+		}
+		
+		Persona p1 = new Persona();
+		p1.edad = 33;
+		
+		Persona p2 = new Persona();
+		p2.edad = 55;
+		
+		
+		p1 = p2;
+		p2.edad = 77;
+		Persona p3 = p2;
+		p3.edad = 99;
+		
+		System.out.println(p1.edad);//77
+		System.out.println(p2.edad);//77
+		
+		//
+		String[] array = new String("felix").toUpperCase().concat(" ").concat("depablo").split(" ");
+		String string = new String("felix");
+		String stringToUppercase = string.toUpperCase();
+	}
+
+}

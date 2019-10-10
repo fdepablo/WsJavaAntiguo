@@ -1,0 +1,8 @@
+JUnit4 no viene incluido en el JRE 1.8 por lo que hay
+que add al classpath.
+Para crear un modulo JUnit4 en eclipse:
+	- boton derecho -> new -> JUnit Test Case
+Si no tenemos JUnit4 add al proyecto, eclipse nos preguntará
+para add
+
+Tambien se creo la carpeta test y se metio en el classpath

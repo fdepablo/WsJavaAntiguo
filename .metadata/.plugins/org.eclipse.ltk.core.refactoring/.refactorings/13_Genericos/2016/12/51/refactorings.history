@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Persona.java&apos; to &apos;15_Ficheros/src/ficheros&apos;&#x0D;&#x0A;- Original project: &apos;13_Genericos&apos;&#x0D;&#x0A;- Destination element: &apos;15_Ficheros/src/ficheros&apos;&#x0D;&#x0A;- Original element: &apos;genericos.Persona.java&apos;" description="Copy compilation unit" destination="=15_Ficheros/src&lt;ficheros" element1="/src&lt;genericos{Persona.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1482485134000" units="1" version="1.0"/>
+</session>

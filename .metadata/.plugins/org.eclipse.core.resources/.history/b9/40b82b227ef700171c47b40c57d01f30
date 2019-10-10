@@ -1,0 +1,22 @@
+package persistencia;
+
+import java.util.ArrayList;
+
+import modelo.entidades.Empleado;
+
+public class DaoEmpleados {
+	private ArrayList<Empleado> listaEmpleados = new ArrayList<>();
+	
+	public boolean altaEmpleado(Empleado e) {
+		listaEmpleados.add(e);
+		return true;
+	}
+	
+	public boolean eliminarEmpleado(Empleado e){
+		return listaEmpleados.remove(e);
+	}
+	
+	public ArrayList<Empleado> getListaEmpleados(){
+		return listaEmpleados;
+	}
+}

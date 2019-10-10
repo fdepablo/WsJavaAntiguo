@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+
+<channel>
+	<title>Planet Eclipse</title>
+	<link>http://planeteclipse.org/planet/</link>
+	<language>en</language>
+	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
+
+<item>
+	<title>EclipseCon Europe 2018: Thorntail - A Micro implementation of Eclipse MicroProfile</title>
+	<guid isPermaLink="false">https://www.eclipsecon.org/news/743 at https://www.eclipsecon.org</guid>
+	<link>https://www.eclipsecon.org/europe2018/news/thorntail-micro-implementation-eclipse-microprofile</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;h4&gt;by Ken Finnigan&lt;/h4&gt;
+
+&lt;p&gt;In this article we introduce some of the topics Michal Szynkiewicz, from the Thorntail team, will be presenting during his EclipseCon session &lt;a href=&quot;https://www.eclipsecon.org/europe2018/sessions/invited-talk-thorntail-micro-implementation-eclipse-microprofile&quot;&gt;Thorntail - A Micro Implementation of Eclipse MicroProfile&lt;/a&gt;. Be sure to come by his session to learn all the details on Eclipse MicroProfile and how to use it in Thorntail!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2018/news/thorntail-micro-implementation-eclipse-microprofile&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/Thorntail%20logo.png?itok=hq_61S5i&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Tue, 02 Oct 2018 14:38:56 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Case Study: How Bosch Is Succeeding with Open Source at Eclipse IoT</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/RS679nuKZkQ/</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/RS679nuKZkQ/</link>
+	<description>How is it that a 150-year-old, 400,000 employee industrial conglomerate is competing and winning in the rapidly involving IoT software industry?&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/RS679nuKZkQ&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 02 Oct 2018 14:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Mike Milinkovich: Case Study: How Bosch Is Succeeding with Open Source at Eclipse IoT</title>
+	<guid isPermaLink="false">http://mmilinkov.wordpress.com/?p=1464</guid>
+	<link>https://mmilinkov.wordpress.com/2018/10/02/how-bosch-is-succeeding-with-open-source/</link>
+	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;How is it that a 150-year-old, 400,000 employee industrial conglomerate is competing and winning in the rapidly involving IoT software industry? We’ve just published a &lt;a href=&quot;https://iot.eclipse.org/case-studies/bosch-leadership-in-eclipse-iot/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;case study&lt;/a&gt; in which &lt;a href=&quot;https://www.bosch.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Bosch&lt;/a&gt; shares how open collaboration at the Eclipse Foundation factors into that success. This case study is required reading for any organization considering pursuing an open source strategy. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;This case study is yet another proof point that open source has won. No single company can deliver innovation at the pace and scale of open source. For industrial companies in particular, broadly adopted open technologies and standards are critical for success in the digital economy. It’s a case of disrupt or be disrupted — and open source holds the key for rapid and sustainable innovation in the digital age. The team at Bosch recognized all of this several years ago. When the time came for creating an IoT platform for themselves and their customers, Bosch chose open source to compete with proprietary vendors. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;At the Eclipse Foundation, Bosch is successfully executing a long-term strategy to create a widely adopted open source platform for IoT. Having previously been a long-term Solutions member of the Eclipse Foundation, Bosch increased its membership level in the Eclipse Foundation to become a Strategic member and joined the Eclipse IoT Working Group in 2015. Beyond IoT, Bosch is an active participant in the Eclipse Foundation’s Automotive Industry community.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Some of the highlights from the case study (&lt;a href=&quot;https://iot.eclipse.org/case-studies/bosch-leadership-in-eclipse-iot/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;html&lt;/a&gt;) (&lt;a href=&quot;https://iot.eclipse.org/resources/case-studies/Eclipse%20IoT%20Success%20Story%20-%20Bosch.pdf&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;pdf&lt;/a&gt;):&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Bosch’s leadership in the Eclipse IoT community has helped position the company as a leader in the IoT industry.&lt;/span&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Bosch has created six different IoT open source projects since joining the Eclipse IoT community. In addition, Bosch contributes to many other Eclipse IoT projects.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Bosch has contributed around 1.5 million lines of code to Eclipse projects. At present, over 60 Bosch developers work on Eclipse IoT projects.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Many of the &lt;a href=&quot;https://www.bosch-si.com/corporate/home/homepage.html&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Bosch IoT Suite&lt;/a&gt; commercial products are now based on Eclipse IoT projects. The open development process used by the Eclipse projects has been adopted by Bosch Software Innovations’ product development teams. The open source development model helps Bosch provide more transparency for their customers, and aids in recruiting new developers keen to work on open source.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The Eclipse Foundation’s clear, vendor-neutral rules for intellectual property sharing and decision-making make it easy to collaborate with other organizations on driving rapid innovation. The Foundation’s legal processes provide Bosch with the legal assurance that they can successfully embed open source technology into their commercial products.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We are thrilled that Bosch is seeing the benefits of their open source strategy and participation in the Eclipse community. Thanks to the contributions of Bosch engineers and many other developers within the Eclipse community, all can benefit from runtimes and frameworks creating a open, vendor-neutral platform for IoT. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;To learn more about the Eclipse IoT community, head over to the &lt;/span&gt;&lt;a href=&quot;https://iot.eclipse.org/working-group/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Eclipse IoT Working Group website&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;</description>
+	<pubDate>Tue, 02 Oct 2018 12:04:01 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Eclipse CBI - Common Build Infrastructure changes</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/xnwBaw3lZDg/eclipse-cbi-common-build-infrastructure-changes</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/xnwBaw3lZDg/eclipse-cbi-common-build-infrastructure-changes</link>
+	<description>The Eclipse CBI, which traces its roots back to 2006, has undergone some important changes recently, including a new Kubernetes+Docker-powered environment at https://jenkins.eclipse.org that re announced previously.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/xnwBaw3lZDg&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 28 Sep 2018 20:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Denis Roy: Eclipse CBI - Common Build Infrastructure changes</title>
+	<guid isPermaLink="false">https://blogs.eclipse.org/6645 at https://blogs.eclipse.org</guid>
+	<link>https://blogs.eclipse.org/post/denis-roy/eclipse-cbi-common-build-infrastructure-changes</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;The Eclipse CBI, which traces its roots back to 2006, has undergone some important changes recently, including a new Kubernetes+Docker-powered environment at &lt;a href=&quot;https://jenkins.eclipse.org&quot;&gt;https://jenkins.eclipse.org&lt;/a&gt; that we announced previously.&lt;/p&gt;
+
+&lt;p&gt;Like all the Foundation's services, CBI does not operate at zero-cost, and its immense success over the years has given us many a headache in balancing operating cost vs. the great value it provides to our projects.&lt;/p&gt;
+
+&lt;p&gt;We've now defined the CBI offering in more clear terms; notably, the resources and support levels that projects can expect to receive. For 90% of our projects, these resources are sufficient and for them, nothing changes.&lt;/p&gt;
+
+&lt;p&gt;We are aware that one-size-does-not-fit-all, and some projects just need more. Additional resources are therefore available to projects that are backed by a Member company.&lt;/p&gt;
+
+&lt;p&gt;The CBI page at &lt;a href=&quot;https://wiki.eclipse.org/CBI&quot;&gt;https://wiki.eclipse.org/CBI&lt;/a&gt; has all the info on CBI, JIPP and all the services that are included, as well as the available resources and service levels we're offering.&lt;/p&gt;
+
+&lt;p&gt;We hope Eclipse projects continue to receive great value from Eclipse CBI, and we continue to work hard on providing a service that meets the growing needs of our projects.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Fri, 28 Sep 2018 18:56:21 +0000</pubDate>
+</item>
+<item>
+	<title>Mike Milinkovich: Jakarta EE Status – September 2018 Update</title>
+	<guid isPermaLink="false">http://mmilinkov.wordpress.com/?p=1458</guid>
+	<link>https://mmilinkov.wordpress.com/2018/09/27/jakarta-ee-status-september-2018-update/</link>
+	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Migrating Java EE to the Eclipse Foundation and Jakarta EE is a process not an event. In the past couple of weeks however, several very important milestones have occurred that deserve to be recognized.&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;100% of Glassfish and related Java EE reference implementation components from Oracle have now been contributed, and published to GitHub repositories of the EE4J organization. For those of us at the Eclipse Foundation, part of the reason why this is so huge is that to a large degree, we’ve completed our part. The repos (99) have been provisioned, the committers (162) have been given access, and the initial intellectual property reviews (404) have been done. From this point on, progress on the projects is now largely under the control of the projects themselves.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;img alt=&quot;ee4j_status&quot; class=&quot;alignnone size-full wp-image-1459&quot; src=&quot;https://mmilinkov.files.wordpress.com/2018/09/ee4j_status.png?w=700&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Builds for the EE4J projects are now running on Eclipse Foundation infrastructure based on our Jenkins-based Common Build Infrastructure. &lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The Java EE TCKs have been contributed and are now available in open source. The importance of this cannot be understated, as my colleague Tanja Obradović points out in &lt;/span&gt;&lt;a href=&quot;https://blogs.eclipse.org/post/tanja-obradovic/java-ee-tck-now-open-sourced-eclipse-foundation&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;her blog&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The Eclipse Foundation has signed the Oracle Java EE TCK agreement, which is going to allow us to ship Eclipse Glassfish certified as Java EE 8 compatible. This has also required us to create a testing infrastructure at the Eclipse Foundation, and allowed the EE4J projects to begin testing against the Java EE 8 TCKs.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;IBM, Oracle, Payara, Red Hat, and Tomitribe have all committed to three years of funding for Jakarta EE ranging from $25K to $300K per year. This funding will allow us to create a dedicated team and fund marketing activities for the &lt;/span&gt;&lt;a href=&quot;https://jakarta.ee/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Jakarta EE Working Group&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. &lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;This migration has been an enormous effort, and we certainly have a ways to go yet. But it’s always fun to celebrate some victories along the way.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;If you are interested in learning more about Jakarta EE and the future of cloud native Java, please join us at &lt;/span&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2018&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;EclipseCon Europe&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; in Germany in October. There is a wealth of &lt;/span&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2018/session-tracks-eclipsecon-europe-2018/cloud-native-java&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Jakarta EE and MicroProfile content&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. In particular, I hope to see you at the talk that I am doing with Wayne Beaton about the &lt;/span&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2018/sessions/directors-pick-introducing-eclipse-foundation-specification-process&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;new specification process&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. Oh, and there’s also this &lt;/span&gt;&lt;a href=&quot;https://www.oracle.com/code-one/index.html&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;other conference&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; happening in San Francisco at the same time….&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</description>
+	<pubDate>Thu, 27 Sep 2018 21:21:02 +0000</pubDate>
+</item>
+<item>
+	<title>Tanja Obradovic: Java EE TCK is now open sourced at Eclipse Foundation</title>
+	<guid isPermaLink="false">https://blogs.eclipse.org/6643 at https://blogs.eclipse.org</guid>
+	<link>https://blogs.eclipse.org/post/tanja-obradovic/java-ee-tck-now-open-sourced-eclipse-foundation</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;A major milestone was achieved this September 2018! The Jakarta EE TCKs are here and finally open sourced! It was long wished for and waited on by many. But what exactly does that mean?&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;Transparency&lt;/strong&gt;: Vendors, customers, and the community, in general, can see what passing the tests really means (i.e. they can see the actual tests that are performed and gain better insight into the value of the process). Transparency, of course, extends to development. As new TCKs are developed, the community can monitor, influence, and engage in the process. Transparency is the gateway to openness, improved process quality, and — ultimately — better products.&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;Openness&lt;/strong&gt;: Access by a broader community means that there is a greater pool of potential contributors than had existed before. A big part of openness is “leveling the playing field”, with influence and control being determined by a robust governance model and processes. This framework supports open collaboration on new ideas and opportunities, increasing the value of the work. This also means a shared burden.&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;Shared burden&lt;/strong&gt;: By opening up the process to new ideas and contributors, we reduce dependency on any single organization or group, and have the potential to spread responsibility for building and maintaining the TCKs.&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;Vendor neutrality&lt;/strong&gt;: Reducing dependency on any single organization or group provides us with insurance that the work can progress if that single entity reduces their investment.&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;The community is already collaborating on driving the TCKs forward. In the first two weeks since the TCKs were moved to the Foundation’s Git repositories, we had 18 commits from four committers from two different companies. This is another step in making the Jakarta EE brand, the future direction of enterprise Java™ technologies and inviting the community to be a part of it.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags: &lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://blogs.eclipse.org/blog-tags/jakartaee&quot;&gt;#JakartaEE&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;https://blogs.eclipse.org/blog-tags/tck&quot;&gt;#TCK&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://blogs.eclipse.org/blog-tags/javaee&quot;&gt;#JavaEE&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Thu, 27 Sep 2018 20:37:47 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Eclipse Foundation and Cloud Native Computing Foundation Collaborate to Grow Kubernetes Use Cases in Trillion Dollar IoT Market</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/-0H9ni_i2ac/Eclipse-Foundation-and-Cloud-Native-Computing-Foundation-Collaborate-to-Grow-Kubernetes-Use-Cases-in-Trillion-Dollar-IoT-Market.html</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/-0H9ni_i2ac/Eclipse-Foundation-and-Cloud-Native-Computing-Foundation-Collaborate-to-Grow-Kubernetes-Use-Cases-in-Trillion-Dollar-IoT-Market.html</link>
+	<description>Red Hat and other Eclipse IoT members will collaborate in working group to extend capabilities of Kubernetes for IoT Edge use cases.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/-0H9ni_i2ac&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Thu, 27 Sep 2018 14:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Ditto: Announcing Ditto Milestone 0.8.0-M2</title>
+	<guid isPermaLink="true">https://www.eclipse.org/ditto/2018-09-27-milestone-announcement-080-M2.html</guid>
+	<link>https://www.eclipse.org/ditto/2018-09-27-milestone-announcement-080-M2.html</link>
+	<description>&lt;p&gt;Brace yourself, Eclipse Ditto is preparing for its 
+&lt;a href=&quot;https://projects.eclipse.org/projects/iot.ditto/releases/0.8.0&quot;&gt;first release 0.8.0&lt;/a&gt;. We are happy to announce our next
+milestone towards that goal.&lt;/p&gt;
+
+&lt;p&gt;Have a look at the Milestone &lt;a href=&quot;https://www.eclipse.org/ditto/release_notes_080-M2.html&quot;&gt;0.8.0-M2 release notes&lt;/a&gt; for what changed in detail.&lt;/p&gt;
+
+&lt;p&gt;The main changes and new features are&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;enforcement of max. entity size of twins and messages&lt;/li&gt;
+  &lt;li&gt;added MQTT support connecting to MQTT 3.1.1 brokers&lt;/li&gt;
+  &lt;li&gt;subscribing to changes based on filters&lt;/li&gt;
+  &lt;li&gt;conditional requests at all APIs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;artifacts&quot;&gt;Artifacts&lt;/h2&gt;
+
+&lt;p&gt;Unfortunately, we had some problems during the milestone release build causing that the released artifacts have version
+&lt;code class=&quot;highlighter-rouge&quot;&gt;0.8.0-M2b&lt;/code&gt; instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;0.8.0-M2&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The new Java artifacts have been published at the &lt;a href=&quot;https://repo.eclipse.org/content/repositories/ditto/&quot;&gt;Eclipse Maven repository&lt;/a&gt;
+as well as &lt;a href=&quot;https://repo1.maven.org/maven2/org/eclipse/ditto/&quot;&gt;Maven central&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Docker images have been pushed to Docker Hub:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hub.docker.com/r/eclipse/ditto-policies/&quot;&gt;eclipse/ditto-policies&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hub.docker.com/r/eclipse/ditto-things/&quot;&gt;eclipse/ditto-things&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hub.docker.com/r/eclipse/ditto-things-search/&quot;&gt;eclipse/ditto-things-search&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hub.docker.com/r/eclipse/ditto-gateway/&quot;&gt;eclipse/ditto-gateway&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hub.docker.com/r/eclipse/ditto-connectivity/&quot;&gt;eclipse/ditto-connectivity&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hub.docker.com/r/eclipse/ditto-concierge/&quot;&gt;eclipse/ditto-concierge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img alt=&quot;Ditto&quot; class=&quot;docimage&quot; src=&quot;https://www.eclipse.org/ditto/images/ditto.svg&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;–&lt;br /&gt;
+The Eclipse Ditto team&lt;/p&gt;</description>
+	<pubDate>Thu, 27 Sep 2018 04:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: K8s at the Edge - Some Context on the New Kubernetes IoT Working Group</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/DO3N2EnGESs/2Du9i4p</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/DO3N2EnGESs/2Du9i4p</link>
+	<description>The Eclipse Foundation is excited to be part of today's announcement of a new Kubernetes IoT Edge Working Group.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/DO3N2EnGESs&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Wed, 26 Sep 2018 13:30:00 +0000</pubDate>
+</item>
+<item>
+	<title>Mike Milinkovich: K8s at the Edge – Some Context on the New Kubernetes IoT Working Group</title>
+	<guid isPermaLink="false">http://mmilinkov.wordpress.com/?p=1455</guid>
+	<link>https://mmilinkov.wordpress.com/2018/09/26/k8s-at-the-edge/</link>
+	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;It’s hard to believe that Google released Kubernetes as an open source project only three years ago. What began as the &lt;/span&gt;&lt;a href=&quot;https://www.wired.com/2013/03/google-borg-twitter-mesos/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Borg&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; cluster management platform to provide services like Gmail and YouTube at global scale is now the standard orchestration layer at the center of a massive industry shift to cloud native.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Enterprises are being catapulted into system resource engineering concepts that have been the bedrock of operations at web-scale leaders like Google and Netflix, and the open source stack underneath it all is evolving so fast it’s hard to keep up.  Kubernetes is attracting all sorts of exciting frameworks and services (see projects like &lt;/span&gt;&lt;a href=&quot;https://istio.io/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Istio&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; and &lt;/span&gt;&lt;a href=&quot;https://www.envoyproxy.io/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Envoy&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;), and no one could have anticipated it having this degree of momentum.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;So what does any of this have to do with IoT? &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The Eclipse Foundation is excited to be part of today’s announcement of a new &lt;/span&gt;&lt;a href=&quot;https://github.com/kubernetes/community/tree/master/wg-iot-edge&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Kubernetes IoT Edge Working Group&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; – in conjunction with CNCF and supported by leading vendors like Bosch, Eurotech, InfluxData, Red Hat, Siemens, Vapor IO, and VMware.  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Eclipse Foundation has a lot on the go with IoT — 2.93 million lines of code (by last count), 42 different &lt;/span&gt;&lt;a href=&quot;https://iot.eclipse.org/working-group/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;member organizations&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, 36 &lt;/span&gt;&lt;a href=&quot;http://iot.eclipse.org/projects&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;projects&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; and 280 developers. The pace of innovation in IoT is very fast, and there are still a lot of great unsolved challenges at the IoT Edge. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Kubernetes was born in the datacenter. Its original promise was bridging datacenter and cloud. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;But Kubernetes has a ton of potential for handling massive workloads on the edge — providing a common control plane across hybrid cloud and edge environments to simplify management and operations. Chick-fil-A, for example, is &lt;/span&gt;&lt;a href=&quot;https://medium.com/@cfatechblog/bare-metal-k8s-clustering-at-chick-fil-a-scale-7b0607bd3541&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;running Kubernetes at the edge in every restaurant&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Some of the great unsolved problems at the IoT edge — connectivity, manageability, scalability, reliability, security challenges, how to bring compute resources closer to edge devices for faster data processing and actions — are being solved as one-offs by the enterprises that are jumping into IoT. This new working group sees Kubernetes as having great potential as a foundational technology for extending hybrid environments to the IoT edge, and believes that broader industry collaboration on requirements definition around Kubernetes will accelerate broader adoption of IoT. Once again, it’s the rising tide theory of open source. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As Red Hat’s Dejan Bosanac (lead for the Kubernetes IoT Edge Working Group) says:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;“IoT and edge applications have many distributed components that don’t usually sit together within the same datacenter infrastructure. There are messaging challenges, security has to be re-invented for every application and service, and there are integration and data locality issues with sidecar services. These are issues that shouldn’t have to be re-invented every time — they should be open source infrastructure with broad industry support. Red Hat and this working group see Kubernetes and other cloud-native projects in its orbit as having broad potential sitting between gateways, edge nodes and cloud platforms. Much like the LAMP stack was instrumental to the web-applications era, this group is focused on accelerating a Kubernetes stack for running cloud infrastructure and distributed components at the IoT edge.”&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Some of the initial targets for the group in how it evolves Kubernetes for IoT edge applications:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Supporting Industrial IoT (IIoT) use cases scaling to millions of constrained devices a) connecting directly to Kubernetes-based cloud infrastructure (IP enabled devices), or b) connecting via IoT gateways (for non-IP enabled devices)&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Via Edge nodes, bringing computing closer to data sources to support processing and acting on data sooner. Anticipated benefits include reduced latency, lower bandwidth, and improved reliability. Some example use cases:&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Deploying data streaming applications to the Edge nodes in order to reduce traffic and save bandwidth between devices and the central cloud. &lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Deploying a serverless framework for using local functions that can be triggered as a response to certain events (without communication with the cloud)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Providing a common control plane across hybrid cloud and edge environments to simplify management and operations &lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The initial focus of the working group will be to flesh out IoT edge computing use cases and see how Kubernetes can be used (and to what extent). Among some of  the requirements identified so far:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;For IIoT applications, the Kubernetes in&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;gress&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; layer must &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;scale to millions of connections&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;That same ingestion layer must &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;provide first-class&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; support for IIoT messaging protocols such as MQTT (it is primarily HTTP TLS centric today)&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Kubernetes must support multi-tenancy for environments where devices and gateways are shared&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;There have been a lot of industry watchers who have been wondering aloud how high the ceiling is for Kubernetes. Container orchestration seems like such a specific technology – how can this technology reach this type of ubiquity? Well one thing is clear – Kubernetes has jumped the datacenter and is now clearly in play in IoT ($1.2T market by 2022, according to IDC) as well. We are excited to be collaborating with the Kubernetes community to enable next generation of IoT applications. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;To learn more, head over to the Kubernetes IoT Edge Working Group &lt;/span&gt;&lt;a href=&quot;https://github.com/kubernetes/community/tree/master/wg-iot-edge&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;community page&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Have specific ideas for how you’d like to see Kubernetes evolve to meet your IoT use cases? Check out the this &lt;/span&gt;&lt;a href=&quot;https://docs.google.com/document/d/1We-pRDV9LDFo-vd9DURCPC5-Bum2FvjHUGZ1tacGmk8/edit#heading=h.n4tqqt3iuizs&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;working document&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; where you can get a sense of the progress so far, and the areas where you could possibly contribute your talents.&lt;/span&gt;&lt;/p&gt;</description>
+	<pubDate>Wed, 26 Sep 2018 11:00:03 +0000</pubDate>
+</item>
+<item>
+	<title>EclipseCon Europe 2018: EF @ ECE: Meet the Team</title>
+	<guid isPermaLink="false">https://www.eclipsecon.org/news/737 at https://www.eclipsecon.org</guid>
+	<link>https://www.eclipsecon.org/europe2018/news/ef-ece-meet-team</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;The Eclipse Foundation's professional staff offer a variety of services to the Eclipse community, including intellectual property (IP) management, IT infrastructure, community development, and more.&lt;/p&gt;
+
+&lt;p&gt;EclipseCon Europe is a great place to meet Foundation staff who manage delivery of these services. Engage with them via informal networking at the ECE social events, or reach out to them ahead of time (click on their names to send email) and set up a F2F meeting in Ludwigsburg.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2018/news/ef-ece-meet-team&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/wayne_square.jpg?itok=Pdw00oNf&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Wed, 26 Sep 2018 00:12:38 +0000</pubDate>
+</item>
+<item>
+	<title>Holger Voormann: Eclipse IDE improvements: Photon is followed by 2018-09</title>
+	<guid isPermaLink="false">http://eclipsehowl.wordpress.com/?p=1419</guid>
+	<link>https://eclipsehowl.wordpress.com/2018/09/23/eclipse-ide-improvements-photon-is-followed-by-2018-09/</link>
+	<description>&lt;p&gt;With the first quarterly simultaneous release the naming scheme was changed: Photon, which was released in June, is followed by 2018-09 in September now. Many thanks to all the heroes who made the Eclipse IDE a bit better again!&lt;/p&gt;
+&lt;p&gt;I have made two short videos each for Photon three months ago and now for 2018-09, showing Eclipse IDE improvements in action: one about general and Git improvements and the other exclusively for Java developers. Below the two videos, you will find a list of the improvements with time stamps and links to details. If you dislike something, let me know what you want me to change next time (for example, if you prefer one longer video like before instead of several short videos like the current ones).&lt;/p&gt;
+&lt;h3&gt;2018-09 &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.9/platform.php&quot;&gt;general&lt;/a&gt; and &lt;a href=&quot;https://projects.eclipse.org/projects/technology.egit/reviews/5.1.0-release-review&quot;&gt;Git&lt;/a&gt; improvements&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/13dka9ut-xs&quot;&gt;&lt;img alt=&quot;Eclipse 2018-09 IDE Improvements: General and Git&quot; class=&quot;alignnone size-full wp-image-1415&quot; height=&quot;253&quot; src=&quot;https://eclipsehowl.files.wordpress.com/2018/09/eclipse_2018-09_ide_improvements_general_git.png?w=450&amp;amp;h=253&quot; width=&quot;450&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/13dka9ut-xs?t=16s&quot;&gt;0:16&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.9/platform.php#minimap&quot;&gt;New view: &lt;em&gt;Minimap&lt;/em&gt;&lt;/a&gt; (see also: &lt;a href=&quot;https://softwareengineering.stackexchange.com/q/156362&quot;&gt;Does Minimap improve productivity?&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/13dka9ut-xs?t=46s&quot;&gt;0:46&lt;/a&gt;: Dark theme improvements, e. g. in code coverage or in the &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.9/jdt.php#breadcrumb-dark&quot;&gt;Java breadcrumb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/13dka9ut-xs?t=1m34s&quot;&gt;1:34&lt;/a&gt;: &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=533596&quot;&gt;Empty repository: &lt;em&gt;unborn ‘master’ branch&lt;/em&gt; hint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/13dka9ut-xs?t=1m54s&quot;&gt;1:54&lt;/a&gt;: &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=537200&quot;&gt;&lt;em&gt;Git Staging&lt;/em&gt; view: icons for author and committer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/13dka9ut-xs?t=2m0s&quot;&gt;2:00&lt;/a&gt;: &lt;em&gt;History&lt;/em&gt; view: &lt;em&gt;Link with Editor and Selection&lt;/em&gt; and &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=535742&quot;&gt;&lt;em&gt;Compare Mode&lt;/em&gt; enabled by default&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/13dka9ut-xs?t=2m22s&quot;&gt;2:22&lt;/a&gt;: &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=339796&quot;&gt;&lt;em&gt;History&lt;/em&gt; view: configurable table columns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/13dka9ut-xs?t=2m31s&quot;&gt;2:31&lt;/a&gt;: &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=538505&quot;&gt;&lt;em&gt;Commit Viewer&lt;/em&gt;: the focus set into ‘Files’ section&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/13dka9ut-xs?t=2m44s&quot;&gt;2:44&lt;/a&gt;: &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=537672&quot;&gt;&lt;em&gt;Commit Viewer&lt;/em&gt;: &lt;em&gt;Create Tag…&lt;/em&gt; and &lt;em&gt;Create Branch…&lt;/em&gt; icons with ‘+’&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/13dka9ut-xs?t=2m54s&quot;&gt;2:54&lt;/a&gt;: &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=536236&quot;&gt;&lt;em&gt;Git Repositories&lt;/em&gt; view: in right-click menu &lt;em&gt;Clean…&lt;/em&gt; moved down before &lt;em&gt;Collect Garbage&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2018-09 &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.9/jdt.php&quot;&gt;Java&lt;/a&gt; improvements&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/rW6VRX1lqk0&quot;&gt;&lt;img alt=&quot;Eclipse 2018-09 IDE Improvements: Java&quot; class=&quot;alignnone size-full wp-image-1415&quot; height=&quot;253&quot; src=&quot;https://eclipsehowl.files.wordpress.com/2018/09/eclipse_2018-09_ide_improvements_java.png?w=450&amp;amp;h=253&quot; width=&quot;450&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/rW6VRX1lqk0?t=16s&quot;&gt;0:16&lt;/a&gt;: &lt;a href=&quot;https://marketplace.eclipse.org/content/java-11-support-eclipse-photon-49&quot;&gt;Java 11 support via Marketplace&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/rW6VRX1lqk0?t=29s&quot;&gt;0:29&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.9/jdt.php#step-compiler-compliance&quot;&gt;New quick fix for Java compiler compliance issues&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/rW6VRX1lqk0?t=40s&quot;&gt;0:40&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.9/jdt.php#create-abstract-method&quot;&gt;New quick fix to create abstract methods in an abstract class&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/rW6VRX1lqk0?t=45s&quot;&gt;0:45&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.9/jdt.php#convert-to-static-import&quot;&gt;New quick fix to convert to static import&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/rW6VRX1lqk0?t=55s&quot;&gt;0:55&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.9/jdt.php#java7-hashcode-equals&quot;&gt;Improved &lt;em&gt;hashCode()&lt;/em&gt; and &lt;em&gt;equals()&lt;/em&gt; generation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/rW6VRX1lqk0?t=1m11s&quot;&gt;1:11&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.9/jdt.php#show-command-line&quot;&gt;In Java and JUnit launch configurations new &lt;em&gt;Show Command Line&lt;/em&gt; button&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/rW6VRX1lqk0?t=1m22s&quot;&gt;1:22&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.9/jdt.php#support-long-classpath&quot;&gt;Support for long classpath/modulepath&lt;/a&gt; via &lt;a href=&quot;https://stackoverflow.com/a/201969&quot;&gt;temporary JAR file trick&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/rW6VRX1lqk0?t=1m44s&quot;&gt;1:44&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.9/jdt.php#open-type-full-path&quot;&gt;&lt;em&gt;Open Type&lt;/em&gt; dialog now always shows the full path&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/rW6VRX1lqk0?t=1m57s&quot;&gt;1:57&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.9/jdt.php#align-spaces&quot;&gt;Java formatter: align items in columns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/rW6VRX1lqk0?t=2m18s&quot;&gt;2:18&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.9/jdt.php#compact-loops&quot;&gt;Java formatter: keep simple loops in one line&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/rW6VRX1lqk0?t=2m50s&quot;&gt;2:50&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.9/jdt.php#step-result-timeout&quot;&gt;Debugging: timeout for observing method result&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/rW6VRX1lqk0?t=3m10s&quot;&gt;3:10&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.9/jdt.php#step-result-hide&quot;&gt;Debug view: hide/show running threads&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Photon &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/platform.php&quot;&gt;general&lt;/a&gt; and &lt;a href=&quot;https://projects.eclipse.org/projects/technology.egit/reviews/5.0.0-release-review&quot;&gt;Git&lt;/a&gt; improvements&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug&quot;&gt;&lt;img alt=&quot;Eclipse Photon IDE Improvements: General and Git&quot; class=&quot;alignnone size-full wp-image-1415&quot; height=&quot;253&quot; src=&quot;https://eclipsehowl.files.wordpress.com/2018/09/eclipse_photon_ide_improvements_general_git.png?w=450&amp;amp;h=253&quot; width=&quot;450&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=21s&quot;&gt;0:21&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/platform.php#report-missing-nature-as-marker&quot;&gt;Warnings for unsupported natures&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=25s&quot;&gt;0:25&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/platform.php#edit-project-natures&quot;&gt;Modifiable project natures&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=38s&quot;&gt;0:38&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/platform.php#contenttype-filename-pattern&quot;&gt;Content type via file name patterns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=1m04s&quot;&gt;1:04&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/platform.php#open-resource-highlight-matching&quot;&gt;&lt;em&gt;Open Resource&lt;/em&gt; dialog highlights matching characters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=1m10s&quot;&gt;1:10&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/platform.php#open-resource-dialog-paths&quot;&gt;&lt;em&gt;Open Resource&lt;/em&gt; dialog now always shows the full path&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=1m15s&quot;&gt;1:15&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/platform.php#browser-autorefresh&quot;&gt;Browser editor with new auto-refresh option&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=1m39s&quot;&gt;1:39&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/platform.php#quickaccess-matches-preference-keywords&quot;&gt;Quick access matches preference pages by keyword&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=1m49s&quot;&gt;1:49&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/platform.php#parallel-builds-preference&quot;&gt;Parallel building of projects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=1m54s&quot;&gt;1:54&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/platform.php#preference-import-export-buttons&quot;&gt;Preference dialog with import/export buttons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=2m08s&quot;&gt;2:08&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/platform.php#windows-modern-directory-dialog&quot;&gt;On windows native directory selection dialog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=2m17s&quot;&gt;2:17&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/platform.php#tree-table-scaling&quot;&gt;On windows improved tree and table widget at high-DPI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=2m23s&quot;&gt;2:23&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/platform.php#default-font-macos&quot;&gt;On macOs Menlo as default text font&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=2m31s&quot;&gt;2:31&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/platform.php#gtk3-theme-override-support&quot;&gt;On Linux GTK3.14+ the &lt;em&gt;GTK_THEME&lt;/em&gt; environment variable is supported&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=2m43s&quot;&gt;2:43&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/platform.php#swt-gtk3-memory-usage&quot;&gt;On Linux GTK3 memory leak fixed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=2m49s&quot;&gt;2:49&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/platform.php#swt-gtk3-caret-performance&quot;&gt;On Linux GTK3 improved caret performance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=2m59s&quot;&gt;2:59&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/platform.php#detach-editor-view&quot;&gt;Detach view or editor via right-click menu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=3m07s&quot;&gt;3:07&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/platform.php#unde-redo-toolbar&quot;&gt;Undo/Redo can be added to the main toolbar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=3m24s&quot;&gt;3:24&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/platform.php#delete-nested-projects&quot;&gt;Prompt before deleting nested projects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=3m35s&quot;&gt;3:35&lt;/a&gt;: Dark theme improvements:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=3m42s&quot;&gt;3:42&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/platform.php#text-editor-icons-dark-theme&quot;&gt;Icons with transparent instead of a white background&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=3m46s&quot;&gt;3:46&lt;/a&gt;: Font colors for section title and link text in dark theme improved&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=3m55s&quot;&gt;3:55&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/platform.php#range-indicator-color&quot;&gt;Configurable range indicator color&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=4m02s&quot;&gt;4:02&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/jdt.php#jdt-syntaxcoloring-dark&quot;&gt;Improved Java syntax highlighting in the dark theme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=4m14s&quot;&gt;4:14&lt;/a&gt;: Eclipse Platform code mining ready (e. g. for &lt;a href=&quot;https://github.com/angelozerr/jdt-codemining)&quot;&gt;JDT Java Code Mining&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=4m44s&quot;&gt;4:44&lt;/a&gt;: &lt;a href=&quot;http://eclip.se/510132&quot;&gt;&lt;em&gt;Git Staging&lt;/em&gt; view search field ignores “*” wildcard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/6y-QgrNa5ug?t=4m49s&quot;&gt;4:49&lt;/a&gt;: &lt;a href=&quot;http://eclip.se/534604&quot;&gt;Git variables that can be used in a launch configuration&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Photon &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/jdt.php&quot;&gt;Java&lt;/a&gt; and &lt;a href=&quot;https://projects.eclipse.org/projects/technology.m2e/reviews/1.9-release-review&quot;&gt;Maven&lt;/a&gt; improvements&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU&quot;&gt;&lt;img alt=&quot;Eclipse Photon IDE Improvements: Java and Maven&quot; class=&quot;alignnone size-full wp-image-1415&quot; height=&quot;253&quot; src=&quot;https://eclipsehowl.files.wordpress.com/2018/09/eclipse_photon_ide_improvements_java_maven.png?w=450&amp;amp;h=253&quot; width=&quot;450&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=32s&quot;&gt;0:32&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/jdt.php#newproject-modulefile&quot;&gt;When creating a new Java project, dialog to create &lt;em&gt;module-info.java&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=48s&quot;&gt;0:48&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/jdt.php#java-9&quot;&gt;In &lt;em&gt;module-info.java&lt;/em&gt; new quick fix to create elements for empty packages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=1m02s&quot;&gt;1:02&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/jdt.php#quickfix-javadoc&quot;&gt;In &lt;em&gt;module-info.java&lt;/em&gt; new quick fix to move a classpath entry to the modulepath&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=1m15s&quot;&gt;1:15&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/jdt.php#override-dependencies&quot;&gt;Overriding modular build path dependencies for launching&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=1m46s&quot;&gt;1:46&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/jdt.php#nonnullbydefault-per-module&quot;&gt;&lt;em&gt;@NonNullByDefault&lt;/em&gt; at module level&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=2m01s&quot;&gt;2:01&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/jdt.php#junit-5-support&quot;&gt;JUnit 5.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=2m14s&quot;&gt;2:14&lt;/a&gt;: Select JUnit tests by tags via logical expression for launching&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=2m32s&quot;&gt;2:32&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/jdt.php#jdt-test-sources&quot;&gt;Classpath separation for test sources&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=2m32s&quot;&gt;2:32&lt;/a&gt;: Plain Java: manually&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=3m38s&quot;&gt;3:38&lt;/a&gt;: Maven: automatically&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=3m36s&quot;&gt;3:36&lt;/a&gt;: &lt;a href=&quot;https://github.com/gradle/gradle/issues/4802#issuecomment-396165166&quot;&gt;Gradle: via build.gradle snippet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=4m08s&quot;&gt;4:08&lt;/a&gt;: Filter out test sources in the &lt;em&gt;Problems&lt;/em&gt; view, in the Java search dialog, in the &lt;em&gt;Call Hierarchy&lt;/em&gt; view and in launch configurations&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=4m56s&quot;&gt;4:56&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/jdt.php&quot;&gt;&lt;em&gt;–release&lt;/em&gt; compiler flag&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=5m36s&quot;&gt;5:36&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/M4/#debug-perspective-changed&quot;&gt;The debugging perspective has a new layout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=5m42s&quot;&gt;5:42&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/jdt.php#debug-shell&quot;&gt;&lt;em&gt;Display&lt;/em&gt; view renamed to &lt;em&gt;Debug Shell&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=5m52s&quot;&gt;5:52&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/M5/#worker-deobfuscated-jdt&quot;&gt;In &lt;em&gt;Debug&lt;/em&gt; view thread names are updated when they change&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=6m02s&quot;&gt;6:02&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/jdt.php#prototype-java-launch-configuration&quot;&gt;Launch prototypes for Java application launch configurations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=6m45s&quot;&gt;6:45&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/jdt.php#escape-non-ascii-when-pasting&quot;&gt;Escape non-ASCII characters when pasting into a string&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=7m12s&quot;&gt;7:12&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/jdt.php#jdt-remove-redundant-modifiers-cleanup&quot;&gt;New cleanup action &lt;em&gt;Remove redundant modifiers&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=7m42s&quot;&gt;7:42&lt;/a&gt;: &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.8/jdt.php#formatter-profile&quot;&gt;New Java formatter profile dialog:&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=7m46s&quot;&gt;7:46&lt;/a&gt;: Filter field&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=7m52s&quot;&gt;7:52&lt;/a&gt;: Bulk changes&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=7m58s&quot;&gt;7:58&lt;/a&gt;: Custom preview contents&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=8m15s&quot;&gt;8:15&lt;/a&gt;: Tip of the Day (see &lt;a href=&quot;https://youtu.be/gDAb_iyO5Fc&quot;&gt;Webinar&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U-ZTkhek5TU?t=8m35s&quot;&gt;8:35&lt;/a&gt;: &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=465882&quot;&gt;Maven POM editor shows by default the &lt;em&gt;pom.xml&lt;/em&gt; instead of the overview page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Several &lt;a href=&quot;https://www.eclipse.org/downloads/packages/&quot;&gt;Eclipse 2018-09 IDE packages are available for download&lt;/a&gt;. Since Photon there has existed an &lt;em&gt;Latest Eclipse Release&lt;/em&gt; update site in &lt;em&gt;Window &amp;gt; Preferences: Install/Update &amp;gt; Available Software Sites&lt;/em&gt;. If you enable it, you can upgrade to 2018-09 via &lt;em&gt;Help &amp;gt; Check for Updates&lt;/em&gt;. If automatic updates (&lt;em&gt;Window &amp;gt; Preferences: Install/Update &amp;gt; Automatic Updates&lt;/em&gt;) have not been disabled, a dialog will ask you on December 19 if you want to upgrade to 2018-12.&lt;/p&gt;</description>
+	<pubDate>Sun, 23 Sep 2018 20:07:48 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Ditto: Selective push notifications available</title>
+	<guid isPermaLink="true">https://www.eclipse.org/ditto/2018-09-21-selective-push-notifications.html</guid>
+	<link>https://www.eclipse.org/ditto/2018-09-21-selective-push-notifications.html</link>
+	<description>&lt;p&gt;The &lt;a href=&quot;https://www.eclipse.org/ditto/architecture-services-connectivity.html&quot;&gt;connectivity service&lt;/a&gt; supercharged Ditto’s flexibility in integrating with other services.
+It’s such a great feature to let the other connected services know about thing updates and property changes.
+Even the direct exchange with real-world assets became more flexible through the multi-protocol support.
+But with a steady increase in connected devices, those messages easily sum up to a huge number.&lt;/p&gt;
+
+&lt;div class=&quot;alert alert-info&quot;&gt;&lt;i class=&quot;fa fa-info-circle&quot;&gt;&lt;/i&gt; &lt;b&gt;Note:&lt;/b&gt; In order to simplify a little, we here use the term &lt;code class=&quot;highlighter-rouge&quot;&gt;message&lt;/code&gt; as synonym for both Ditto 
+        &lt;a href=&quot;https://www.eclipse.org/ditto/basic-signals.html&quot;&gt;signals&lt;/a&gt; and &lt;a href=&quot;https://www.eclipse.org/ditto/basic-messages.html&quot;&gt;messages&lt;/a&gt;.&lt;/div&gt;
+
+&lt;p&gt;Also, not every consuming application needs to know everything that’s going on.
+In fact, the only use case that requires processing of every message is logging.
+Therefore most of the times an application waits for a specific message to trigger a specific action.
+So all other messages are discarded unused.
+This adds a lot of unnecessary overhead both to the message transport capabilities and the processing of messages at the receiving end.&lt;/p&gt;
+
+&lt;p&gt;But what if you could avoid receiving those messages at all.&lt;br /&gt;
+Well, you can!&lt;br /&gt;
+This is exactly what selective push notifications do: 
+Configurable message filters that are applied to Ditto’s publishing connection before anything goes on the line. 
+They can help you with a lot of problems in a bunch of scenarios:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bandwidth limitations: The amount of occurring events is too large and/or frequent to be delivered via the available channels. With selective message filters, you can mute the noise in your event stream.&lt;/li&gt;
+  &lt;li&gt;Information hiding: Let consuming services only know what they need to know. Message filters allow you to control all published content in great detail.&lt;/li&gt;
+  &lt;li&gt;Specialized notifications: A specific event filter can be used to set a value thresholds or a status-change trigger. This removes the burden of implementing filter logic on the application side.&lt;/li&gt;
+  &lt;li&gt;Event routing: Create multiple connections with Ditto’s connectivity service and route your events through those aligned with your requirements. All by specifying appropriate filters for your connection targets.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following diagram visualizes this context:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;visual comparison&quot; src=&quot;https://www.eclipse.org/ditto/images/blog/2018-09-21-selective-push-notifications-visual-comparison.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;With the upcoming Ditto release &lt;code class=&quot;highlighter-rouge&quot;&gt;0.8.0-M2&lt;/code&gt;, those filters are available for the following endpoints:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;WebSocket&lt;/li&gt;
+  &lt;li&gt;Server-Sent Events (SSE)&lt;/li&gt;
+  &lt;li&gt;All supported connectivity protocols (AMQP 0.9.1, AMQP 1.0 / &lt;a href=&quot;https://eclipse.org/hono/&quot;&gt;Eclipse Hono&lt;/a&gt;, MQTT)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can use a basic namespace filter on the following topics:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Twin events&lt;/li&gt;
+  &lt;li&gt;Live events&lt;/li&gt;
+  &lt;li&gt;Live messages&lt;/li&gt;
+  &lt;li&gt;Live commands&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This filter is a comma-separated list of selected namespaces. It only allows messages related to one of the given namespaces.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, there is an additional &lt;a href=&quot;https://www.eclipse.org/ditto/basic-rql.html&quot;&gt;RQL filter&lt;/a&gt; for an advanced description of twin and live events.
+Powered by the mighty syntax of Ditto’s search API it allows configuring the selected events in the same manner as you search for things.&lt;/p&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://www.eclipse.org/ditto/basic-changenotifications.html#filtering&quot;&gt;documentation&lt;/a&gt; for more information on options and configuration.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-simple-example&quot;&gt;A simple example&lt;/h2&gt;
+
+&lt;p&gt;Imagine you have a flat with multiple environmental sensors: Some measure temperature, some humidity and some both.
+This information can be useful for different applications.
+In our case, a smart thermostat uses the sensor data to control the indoor climate and there is also a fire alarm installed that detects fires by abnormal high measured temperatures&lt;/p&gt;
+
+&lt;p&gt;The following figure displays this setting:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;example setup&quot; src=&quot;https://www.eclipse.org/ditto/images/blog/2018-09-21-selective-push-notifications-example-setup.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So let’s start with the prerequisites. You need:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A running Ditto instance with a valid user (You can follow our &lt;a href=&quot;https://www.eclipse.org/ditto/intro-hello-world.html&quot;&gt;Hello World example&lt;/a&gt; to create one). This example uses dittos default user on a locally running instance.&lt;/li&gt;
+  &lt;li&gt;A tool for executing HTTP requests (e.g. Ditto’s Swagger API, cURL, Postman). We use this to create our twins and simulate the sensors.&lt;/li&gt;
+  &lt;li&gt;A modern browser supporting WebSockets. This example uses &lt;a href=&quot;https://websocket.org/echo.html&quot;&gt;websocket.org&lt;/a&gt; as a websocket client. The site will tell you if your browser supports the WebSocket protocol. We will mock our applications this way.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;the-digital-twins&quot;&gt;The digital twins&lt;/h3&gt;
+
+&lt;p&gt;First we configure our sensors digital twins:&lt;/p&gt;
+
+&lt;p&gt;A temperature sensor&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-X&lt;/span&gt; PUT &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ditto:ditto'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--header&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Content-Type: application/json'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    &lt;span class=&quot;s1&quot;&gt;'{
+       &quot;features&quot;: {
+         &quot;environmentSensor&quot;: {
+           &quot;properties&quot;: { 
+             &quot;temperature&quot;: 0.0
+           }
+         }
+       }
+     }'&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    &lt;span class=&quot;s1&quot;&gt;'http://localhost:8080/api/2/things/org.eclipse.ditto%3ATemperatureSensor'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;A humidity sensor&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-X&lt;/span&gt; PUT &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ditto:ditto'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--header&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Content-Type: application/json'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    &lt;span class=&quot;s1&quot;&gt;'{
+       &quot;features&quot;: {
+         &quot;environmentSensor&quot;: {
+           &quot;properties&quot;: { 
+             &quot;humidity&quot;: 0
+           }
+         }
+       }
+     }'&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    &lt;span class=&quot;s1&quot;&gt;'http://localhost:8080/api/2/things/org.eclipse.ditto%3AHumiditySensor'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;A combined temperature and humidity sensor&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-X&lt;/span&gt; PUT &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ditto:ditto'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--header&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Content-Type: application/json'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    &lt;span class=&quot;s1&quot;&gt;'{
+       &quot;features&quot;: {
+         &quot;environmentSensor&quot;: {
+           &quot;properties&quot;: {
+             &quot;temperature&quot;: 0.0,
+             &quot;humidity&quot;: 0
+           }
+         }
+       }
+     }'&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    &lt;span class=&quot;s1&quot;&gt;'http://localhost:8080/api/2/things/org.eclipse.ditto%3ATemperatureAndHumiditySensor'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And finally, a teapot&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-X&lt;/span&gt; PUT &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ditto:ditto'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--header&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Content-Type: application/json'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    &lt;span class=&quot;s1&quot;&gt;'{}'&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    &lt;span class=&quot;s1&quot;&gt;'http://localhost:8080/api/2/things/org.eclipse.ditto%3ATeapot'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;mocking-the-consuming-applications&quot;&gt;Mocking the consuming applications&lt;/h3&gt;
+
+&lt;p&gt;Open your browser on https://websocket.org/echo.html. 
+This site allows you to connect with any WebSocket endpoint and supports simple sending and receiving of messages. The interface is shown below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;websocket.org site&quot; src=&quot;https://www.eclipse.org/ditto/images/blog/2018-09-21-selective-push-notifications-websocket_org.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Enter Ditto’s WebSocket endpoint with user credentials &lt;code class=&quot;highlighter-rouge&quot;&gt;ws://ditto:ditto@localhost:8080/ws/2&lt;/code&gt; and hit the &lt;em&gt;Connect&lt;/em&gt; button.
+The log output should confirm the action by printing a simple &lt;code class=&quot;highlighter-rouge&quot;&gt;CONNECTED&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;This means the socket is open and you’re able to receive messages from Ditto.
+But first, you should let Ditto know in what kind of messages you’re interested.
+This interest differs for both of the example applications:&lt;/p&gt;
+
+&lt;p&gt;The thermostat app only needs to know every humidity and temperature report so you can define a filter for change events on twins having those properties:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;START-SEND-EVENTS?filter=or(exists(features/environmentSensor/properties/temperature),exists(features/environmentSensor/properties/humidity))
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Paste it into the &lt;em&gt;Message&lt;/em&gt; input and use the &lt;em&gt;Send&lt;/em&gt; button to post it. Ditto should acknowledge with a &lt;code class=&quot;highlighter-rouge&quot;&gt;START-SEND-EVENTS:ACK&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;That’s it for our thermostat app, let’s proceed to the fire alarm.
+Open https://websocket.org/echo.html again in a separate tab and repeat the connection process.
+But instead of consuming all temperature and humidity reports, we only want to be notified when a specific temperature threshold is exceeded.
+90°C seems to be a solid value for this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;START-SEND-EVENTS?filter=gt(features/environmentSensor/properties/temperature,90)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;After receiving Ditto’s acknowledgment, you’re done with the configuration.&lt;/p&gt;
+
+&lt;h3 id=&quot;report-mocked-sensor-values-to-ditto&quot;&gt;Report mocked sensor values to Ditto&lt;/h3&gt;
+
+&lt;p&gt;Use Ditto’s HTTP API to send mocked data on behalf of our sensors. First report a new humidity value for the humidity sensor:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-X&lt;/span&gt; PUT &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ditto:ditto'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--header&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Content-Type: application/json'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    &lt;span class=&quot;s1&quot;&gt;'55'&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    &lt;span class=&quot;s1&quot;&gt;'http://localhost:8080/api/2/things/org.eclipse.ditto%3AHumiditySensor/features/environmentSensor/properties/humidity'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now check both websocket.org tabs. The thermostat tab should have received an event with the reported value while nothing happened in the alarm tab.&lt;/p&gt;
+
+&lt;p&gt;Continue with some temperature data from another sensor:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-X&lt;/span&gt; PUT &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ditto:ditto'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--header&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Content-Type: application/json'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    &lt;span class=&quot;s1&quot;&gt;'23'&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    &lt;span class=&quot;s1&quot;&gt;'http://localhost:8080/api/2/things/org.eclipse.ditto%3ATemperatureAndHumiditySensor/features/environmentSensor/properties/temperature'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;The value change should be reported to the thermostat, but still no events for the alarm tab.&lt;/p&gt;
+
+&lt;p&gt;Finally it’s time to start a fire. Report a very high temperature for the third sensor:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-X&lt;/span&gt; PUT &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ditto:ditto'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--header&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Content-Type: application/json'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    &lt;span class=&quot;s1&quot;&gt;'120'&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    &lt;span class=&quot;s1&quot;&gt;'http://localhost:8080/api/2/things/org.eclipse.ditto%3ATemperatureSensor/features/environmentSensor/properties/temperature'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now both applications should have received the reported data, and the fire alarm can use this event to (virtually) trigger its bell.&lt;/p&gt;
+
+&lt;p&gt;But what about the teapot? Let him declare his identity by setting a personal message:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-X&lt;/span&gt; PUT &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ditto:ditto'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--header&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Content-Type: application/json'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    &lt;span class=&quot;s1&quot;&gt;'{
+       &quot;properties&quot;: {
+         &quot;message&quot;: &quot;I'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'m a teapot&quot;
+       }
+     }'&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    &lt;span class=&quot;s1&quot;&gt;'http://localhost:8080/api/2/things/org.eclipse.ditto%3ATeapot/features/status'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Unfortunately, no one cares and this no one is notified about that change.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+We do hope that &lt;strong&gt;you&lt;/strong&gt; care about this feature, we think it’s really awesome.
+&lt;br /&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img alt=&quot;Ditto&quot; class=&quot;docimage&quot; src=&quot;https://www.eclipse.org/ditto/images/ditto.svg&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;–&lt;br /&gt;
+The Eclipse Ditto team&lt;/p&gt;</description>
+	<pubDate>Fri, 21 Sep 2018 04:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Webtools News: WTP 3.11 Released!</title>
+	<guid isPermaLink="false">http://www.eclipse.org/webtools/news.php#permalink185</guid>
+	<link>http://eclipse.org/webtools/releases/3.11</link>
+	<description>&lt;div&gt;
+      The Eclise Web Tools Platform 3.11 has been released!  &lt;a href=&quot;https://wiki.eclipse.org/WTP_FAQ#How_do_I_install_WTP.3F&quot;&gt;Installation&lt;/a&gt; and update can be performed using the
+      &lt;a href=&quot;http://download.eclipse.org/releases/2018-09/&quot;&gt;SimRel 2018-09 Update Site&lt;/a&gt; or through the &lt;a href=&quot;https://marketplace.eclipse.org/user/nitind/listings&quot;&gt;Eclipse Marketplace&lt;/a&gt;.
+      Release 3.11 is included in the 2018-09
+          &lt;a href=&quot;https://www.eclipse.org/downloads/packages/release/2018-09/r/eclipse-ide-java-ee-developers&quot;&gt;Eclipse IDE for Java EE Developers&lt;/a&gt; and &lt;a href=&quot;https://www.eclipse.org/downloads/packages/release/2018-09/r/eclipse-ide-javascript-and-web-developers&quot;&gt;Eclipse IDE for JavaScript and Web Developers&lt;/a&gt;, with selected portions also included in &lt;a href=&quot;http://www.eclipse.org/downloads/compare.php&quot;&gt;other packages&lt;/a&gt;.  Adopters can download &lt;a href=&quot;http://download.eclipse.org/webtools/downloads/&quot;&gt;the R3.11 build itself&lt;/a&gt; directly.&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://www.eclipse.org/webtools/news.php#permalink185&quot;&gt;More news&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Thu, 20 Sep 2018 21:01:00 +0000</pubDate>
+</item>
+<item>
+	<title>itemis: Xtext 2.15 released!</title>
+	<guid isPermaLink="true">https://blogs.itemis.com/en/xtext-2.15-released</guid>
+	<link>https://blogs.itemis.com/en/xtext-2.15-released</link>
+	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400; background-color: transparent;&quot;&gt;We are proud to announce Xtext and Xtend 2.15! As you can learn from the release notes (&lt;a href=&quot;https://www.eclipse.org/Xtext/releasenotes.html#/releasenotes/2018/09/04/version-2-15-0&quot;&gt;Xtext&lt;/a&gt; and &lt;a href=&quot;https://www.eclipse.org/xtend/releasenotes.html#/releasenotes/2018/09/04/version-2-15-0&quot;&gt;Xtend&lt;/a&gt;), the focus of this release was on stability, quality and performance. Especially the Xtend Gradle build could be improved significantly and the integration with Eclipse 2018-09 works like a charm, now.&lt;/span&gt;&lt;/p&gt;  
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;In the last three months, it turned out to be rather challenging to keep up with the new concept of rolling releases at Eclipse. We had to learn a lot and more than once we did this the hard way. In the end we are pretty satisfied with the outcome, though. And besides quite some fundamental groundwork on the process-side to get ready for the shorter 3 month release cadence, we did also find the time to squeeze in a few goodies that will make working with Xtext DSLs even more pleasant.&lt;/span&gt;&lt;/p&gt; 
+&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Bye bye Chunk 5 of 17&lt;/span&gt;&lt;/h2&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;One of the noticeable adjustments, that we made, is the improved progress reporting. We redid the logic that tracks the remaining number of files during a build in Eclipse and are now issuing more fine grained feedback to the user. This was possible due to recent changes in the Eclipse platform. We do no longer face a performance degradation when reporting on such a granularity so it was about time to provide more insights on what's going on during a full build.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;img alt=&quot;1–Eclipse-Building–Workspace&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/1%E2%80%93Eclipse-Building%E2%80%93Workspace.gif?t=1537446193710&amp;amp;width=600&amp;amp;name=1%E2%80%93Eclipse-Building%E2%80%93Workspace.gif&quot; style=&quot;width: 600px; display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;600&quot; /&gt;
+&lt;br /&gt; 
+&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;For the unit test addicted among us&lt;/span&gt;&lt;/h2&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Besides the fact that Xtext does now correctly mark test folders as such, when you create a new project, we are constantly working on improvements of the APIs for testing various Xtext services. This time, the infrastructure to test lexical and semantic coloring was added. It greatly simplifies testing of custom highlighting logic.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;img alt=&quot;2–Highlightinh–Xtext&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/2%E2%80%93Highlightinh%E2%80%93Xtext.png?t=1537446193710&amp;amp;width=724&amp;amp;name=2%E2%80%93Highlightinh%E2%80%93Xtext.png&quot; style=&quot;width: 724px;&quot; width=&quot;724&quot; /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;br /&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Also Xtend is now aware of the JUnit annotations and will flag methods with an invalid return type (read: non-void) already in the editor so you get immediate feedback if the type inference has computed some undesired return type for your test method. Especially when working with fluent test APIs this may be very handy.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;img alt=&quot;3–Xtend–JUnit&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/3%E2%80%93Xtend%E2%80%93JUnit.png?t=1537446193710&amp;amp;width=724&amp;amp;name=3%E2%80%93Xtend%E2%80%93JUnit.png&quot; style=&quot;width: 724px;&quot; width=&quot;724&quot; /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;There is more&lt;/span&gt;&lt;/h2&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The 2.15 release has more goodies that you can read about in the release notes of &lt;a href=&quot;https://www.eclipse.org/Xtext/releasenotes.html#/releasenotes/2018/09/04/version-2-15-0&quot;&gt;Xtext&lt;/a&gt; or &lt;a href=&quot;https://www.eclipse.org/xtend/releasenotes.html#/releasenotes/2018/09/04/version-2-15-0&quot;&gt;Xtend&lt;/a&gt;. Being it the improved support for Task markers in Eclipse, the tweaks to the handling of files, that are external to your workspace, a command-line interface for creation of projects or new APIs in the core, make sure you do not miss some interesting bit or piece.&lt;/span&gt;&lt;/p&gt; 
+&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We value your feedback&lt;/span&gt;&lt;/h2&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As usual, if you face any issues with Xtext 2.15 or if you do have any other feedback, please don't hesitate to get in touch with us on &lt;/span&gt;&lt;a href=&quot;https://github.com/eclipse/xtext&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;GitHub&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, via the &lt;a href=&quot;https://www.eclipse.org/forums/index.php?t=thread&amp;amp;frm_id=27&quot;&gt;newsgroup&lt;/a&gt; or simply drop us a comment.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;a class=&quot;cta_button&quot; href=&quot;https://info.itemis.com/cs/ci/?pg=78567f96-0e8e-4c0b-8822-523822026eba&amp;amp;pid=761475&amp;amp;ecid=&amp;amp;hseid=&amp;amp;hsic=&quot;&gt;&lt;img align=&quot;middle&quot; alt=&quot;Contact the  itemis Xtext team&quot; class=&quot;hs-cta-img &quot; src=&quot;https://no-cache.hubspot.com/cta/default/761475/78567f96-0e8e-4c0b-8822-523822026eba.png&quot; /&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;  
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;https://track.hubspot.com/__ptq.gif?a=761475&amp;amp;k=14&amp;amp;r=https%3A%2F%2Fblogs.itemis.com%2Fen%2Fxtext-2.15-released&amp;amp;bu=https%253A%252F%252Fblogs.itemis.com&amp;amp;bvt=rss&quot; style=&quot;width: 1px!important;&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Thu, 20 Sep 2018 13:00:00 +0000</pubDate>
+	<author>xtext@itemis.com (Xtext-Team)</author>
+</item>
+<item>
+	<title>N4JS: Null/Undefined Analysis in N4JS</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-7569987920628430132.post-875574530099273704</guid>
+	<link>https://n4js.blogspot.com/2018/09/nullundefined-analysis-in-n4js_20.html</link>
+	<description>&lt;h4&gt;&lt;/h4&gt;&lt;h4&gt;&lt;b&gt;The N4JS IDE integrates validations and analyses that are quite common for IDEs of statically typed languages. However, these analyses are seldom available for dynamically typed languages like N4JS or TypeScript. In this post we present the null/undefined analysis for N4JS source code.&lt;/b&gt;&lt;/h4&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;&lt;span&gt;TypeError: Cannot read property of undefined&lt;/span&gt;&lt;/b&gt;&lt;br /&gt;&lt;div style=&quot;text-align: right;&quot;&gt;- Developer's staff of life&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;The runtime error above occurs pretty often for JavaScript programmers: A quick search on Google returned about 1.2 million for the term &lt;i&gt;TypeError: Cannot read property of undefined&lt;/i&gt;. When constraining search results to &lt;i&gt;&lt;span style=&quot;font-family: inherit;&quot;&gt;site:stackoverflow.com&lt;/span&gt;&lt;/i&gt; the query will still yield 126 thousand results. These numbers are comparable to the somewhat similar error &lt;i&gt;NullPointerException&lt;/i&gt; which has about 3 million hits on Google and about 525 thousand when constrained to stackoverflow.com. Some of these results are caused by rather simple mistakes that a null/undefined analysis could detect. As a result, the developer could restructure his code and remove these potential errors even before he runs his first test and hence save time.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Null/Undefined Analysis&lt;/h3&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;The N4JS IDE provides static analyses to indicate problems when it detects a property access on a variable which can be null or undefined. The analysis considers all assignments that occur either through a simple assignment expression or via destructuring. Loops, conditional expressions (e.g. &lt;span&gt;i = c? 1 : 0;&lt;/span&gt;) and declaration initializers are respected as well.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://4.bp.blogspot.com/-2MLOhdP3dEk/W3_Cnrj20zI/AAAAAAAAAIU/VD7GMOKA5RkedjFYi2nhKfW2pHKtn2BLACEwYBhgL/s1600/N4JS-IDE.png&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://4.bp.blogspot.com/-2MLOhdP3dEk/W3_Cnrj20zI/AAAAAAAAAIU/VD7GMOKA5RkedjFYi2nhKfW2pHKtn2BLACEwYBhgL/s1600/N4JS-IDE.png&quot; width=&quot;570&quot; /&gt;&lt;/a&gt;&lt;/div&gt;The screenshot above shows a first example where a potential TypeError is detected. Since there exists at least one control flow from &lt;span&gt;v.length&lt;/span&gt; backwards to all reachable definitions of &lt;span&gt;v&lt;/span&gt;,  such that one definition assigns null or undefined to &lt;span&gt;v&lt;/span&gt;, a warning is issued telling that &lt;span&gt;v&lt;/span&gt; may be undefined.&lt;br /&gt;&lt;br /&gt;To make sure that the analysis will produce fast results, it is implemented within some limitations. One is that the analysis is done separately for each body of a function, method, etc. (i.e. &lt;i&gt;intra-procedural&lt;/i&gt; analysis). Hence it lacks knowledge of variables that cross the borders of these bodies such as the return value of a nested function call. In addition, property variables (such as &lt;span&gt;v.length&lt;/span&gt;) are not analyzed since this would require the analysis to be context sensitive to the receiver object (here &lt;span&gt;v&lt;/span&gt;). However, these limitations are common for static analyses of statically typed languages and still allow to detect many problems regarding local variables and parameters.&lt;br /&gt;&lt;br /&gt;Usually, the analysis makes optimistic assumptions. For instance it can happen that a local variable receives the value of a method call or another non-local variable. In this situation the analysis assumes this value is neither null nor undefined. The same is true for function parameters. Only when there are distinct indications in the source code for a value of a local variable to be null or undefined, the analysis will issue a warning.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Guards&lt;/h3&gt;&lt;h3&gt; &lt;/h3&gt;Sometimes the programmer knows that a variable may be null or undefined and hence checks the variable explicitly, for instance using &lt;span&gt;if (v) {...}&lt;/span&gt;. As a result this check disables the warning in the then-branch that complies to the execution semantics.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://2.bp.blogspot.com/-Pjtv74Dim8U/W3_CntUSe0I/AAAAAAAAAIM/ECKOxqI2d2khOrBgcpxIva02wlkcAtnhACEwYBhgL/s1600/No_Warning.png&quot; style=&quot;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://2.bp.blogspot.com/-Pjtv74Dim8U/W3_CntUSe0I/AAAAAAAAAIM/ECKOxqI2d2khOrBgcpxIva02wlkcAtnhACEwYBhgL/s1600/No_Warning.png&quot; width=&quot;570&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;As shown in the screenshot above, neither at the expression &lt;span&gt;w.length &amp;lt; 1&lt;/span&gt; nor at the statement &lt;span&gt;return w.length&lt;/span&gt;; a warning is shown. Of course, the else-branch of such a check would consequently always indicate a warning when a property of variable &lt;span&gt;v&lt;/span&gt; is accessed. Checks for conditional expressions and binary logical expressions (e.g. &lt;span&gt;v &amp;amp;&amp;amp; v.length&lt;/span&gt;) are also supported. A reader might think: &quot;In case &lt;span&gt;w&lt;/span&gt; i&lt;span style=&quot;font-family: inherit;&quot;&gt;s null  the e&lt;/span&gt;xpression &lt;span&gt;w.length&lt;/span&gt; would fail.&quot; True, but in this example the analysis detects the value of &lt;span&gt;w&lt;/span&gt; being undefined. In ca&lt;span style=&quot;font-family: inherit;&quot;&gt;se null might&lt;/span&gt; have been assigned to &lt;span&gt;w&lt;/span&gt; e.g. in an if-condition before, the analysis will issue a warning of &lt;span&gt;w&lt;/span&gt; being null at the two &lt;span&gt;w.length&lt;/span&gt; expressions.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Data Flow&lt;/h3&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://1.bp.blogspot.com/-y8LwrCo27Lw/W3_CnoC3pZI/AAAAAAAAAIQ/2B7jVp9SjqAqz-2TU1rg4gG3iDbdATlJgCEwYBhgL/s1600/Previous_Variable.png&quot; style=&quot;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://1.bp.blogspot.com/-y8LwrCo27Lw/W3_CnoC3pZI/AAAAAAAAAIQ/2B7jVp9SjqAqz-2TU1rg4gG3iDbdATlJgCEwYBhgL/s1600/Previous_Variable.png&quot; width=&quot;570&quot; /&gt;&lt;/a&gt;&lt;/div&gt;There are situations where the value of a variable is null or undefined due to a previous assignment of a variable which may have been null or undefined before, like shown in the example above. Then, the null/undefined dereference problem occurs later when a property is accessed. Since the analysis respects data flow, it can follow the subsequent assignments. Hence a warning is shown at a property access indicating the null or undefined problem. Moreover, the warning also indicates the source of the null or undefined value which would be the variable &lt;span&gt;w&lt;/span&gt; in the example above.&lt;br /&gt;&lt;br /&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span style=&quot;font-size: x-small;&quot;&gt;by Marcus Mews&lt;/span&gt;&lt;/div&gt;</description>
+	<pubDate>Thu, 20 Sep 2018 12:39:45 +0000</pubDate>
+	<author>noreply@blogger.com (Project N4JS)</author>
+</item>
+<item>
+	<title>EclipseCon Europe 2018: Get Acquainted With Sprotty at EclipseCon Europe</title>
+	<guid isPermaLink="false">https://www.eclipsecon.org/news/729 at https://www.eclipsecon.org</guid>
+	<link>https://www.eclipsecon.org/europe2018/news/get-acquainted-sprotty-eclipsecon-europe</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;h4&gt;by Jan Koehnlein&lt;/h4&gt;
+&lt;p&gt;Sprotty is a graphical framework that allows interactive diagrams in web-applications. It has a strong emphasis on usability, customizability and modern rendering. While being completely usable in standalone applications, Sprotty is also very easy to use in a distributed client-server environment. As such, it nicely plays the graphical counterpart in the Language Server Protocol.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2018/news/get-acquainted-sprotty-eclipsecon-europe&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/JanK.png?itok=dlg7Lb6d&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Thu, 20 Sep 2018 11:40:45 +0000</pubDate>
+</item>
+<item>
+	<title>EclipseCon Europe 2018: Sponsor Testimonial: Typefox</title>
+	<guid isPermaLink="false">https://www.eclipsecon.org/news/730 at https://www.eclipsecon.org</guid>
+	<link>https://www.eclipsecon.org/europe2018/news/sponsor-testimonial-typefox</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Autumn time is EclipseCon time! Eclipse has evolved from a pure Java IDE, over a platform for tool integration on the desktop, towards an incubation tank for modern cloud-based development tooling. If you search for the place where all flavors of development tools and frameworks are concentrating, it’s here. We are happy that our latest cloud-based endeavors, Theia and Sprotty, found a home under the Eclipse umbrella.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2018/news/sponsor-testimonial-typefox&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/Typefoxtransp2.png?itok=mGcQK8s2&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Thu, 20 Sep 2018 11:30:08 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Welcoming GlassFish to the Eclipse Foundation</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/K_nSIPDOW9Y/welcoming-glassfish-eclipse-foundation</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/K_nSIPDOW9Y/welcoming-glassfish-eclipse-foundation</link>
+	<description>A major milestone was achieved yesterday! The GlassFish code from Oracle made its home in the Eclipse Foundation's Git repositories, starting a new era of Eclipse GlassFish.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/K_nSIPDOW9Y&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Wed, 19 Sep 2018 19:30:00 +0000</pubDate>
+</item>
+
+</channel>
+</rss>

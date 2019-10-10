@@ -1,0 +1,14 @@
+127.0.0.1 - - [08/Oct/2019:19:57:43 +0200] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [08/Oct/2019:19:59:11 +0200] "GET /PruebaWeb/ServletLogin?nombre=felix&pass=123456 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Oct/2019:19:59:11 +0200] "GET /PruebaWeb/error.html HTTP/1.1" 200 194
+0:0:0:0:0:0:0:1 - - [08/Oct/2019:19:59:11 +0200] "GET /favicon.ico HTTP/1.1" 404 1005
+0:0:0:0:0:0:0:1 - - [08/Oct/2019:20:00:03 +0200] "GET /PruebaWeb/ServletLogin?nombre=felix&pass=123456 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Oct/2019:20:00:03 +0200] "GET /PruebaWeb/error.html HTTP/1.1" 304 -
+127.0.0.1 - - [08/Oct/2019:20:01:13 +0200] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [08/Oct/2019:20:01:29 +0200] "GET /PruebaWeb/error.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Oct/2019:20:01:35 +0200] "GET /PruebaWeb/ServletLogin?nombre=felix&pass=123456 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Oct/2019:20:01:35 +0200] "GET /PruebaWeb/inicio.html HTTP/1.1" 200 178
+0:0:0:0:0:0:0:1 - - [08/Oct/2019:20:01:49 +0200] "GET /PruebaWeb/ServletLogin?nombre=felix&pass=1234599 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Oct/2019:20:09:19 +0200] "GET /PruebaWeb/ServletLogin HTTP/1.1" 200 13
+0:0:0:0:0:0:0:1 - - [08/Oct/2019:20:10:12 +0200] "GET /PruebaWeb/ServletLogin HTTP/1.1" 400 996
+0:0:0:0:0:0:0:1 - - [08/Oct/2019:20:10:37 +0200] "GET /PruebaWeb/ServletLogin HTTP/1.1" 404 961

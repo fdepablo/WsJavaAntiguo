@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;modelo.persistencia&apos; to &apos;persistencia&apos;&#x0D;&#x0A;- Original project: &apos;Ej09_MenuEmpleados&apos;&#x0D;&#x0A;- Original element: &apos;Ej09_MenuEmpleados/src/modelo.persistencia&apos;&#x0D;&#x0A;- Renamed element: &apos;Ej09_MenuEmpleados/src/persistencia&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;modelo.persistencia&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;modelo.persistencia" name="persistencia" qualified="false" references="true" stamp="1553588830789" textual="false" version="1.0"/>
+</session>

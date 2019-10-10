@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;leeme.txt&apos; to &apos;Ej06_OpMatematicas/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;Ej04_OpMatematicas&apos;&#x0D;&#x0A;- Destination element: &apos;Ej06_OpMatematicas/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;leeme.txt&apos;" description="Copy file" destination="=Ej06_OpMatematicas/src&lt;" element1="src/leeme.txt" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1505899327468" units="0" version="1.0"/>
+</session>

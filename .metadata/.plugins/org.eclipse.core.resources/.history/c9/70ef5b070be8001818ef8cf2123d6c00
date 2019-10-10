@@ -1,0 +1,24 @@
+package prueba;
+
+/**
+ * 
+ * Esta clase va a hacer bla bla bla bla
+ * 
+ * @author Felix
+ * @version 1.0
+ * @see http://www.google.es
+ * @since <b> 14/11/2018 </b>
+ *
+ */
+public class ClaseComentada {
+
+	/**
+	 * Este metodo convierte a mayusculas
+	 * @param cadena representa la cadena a convertir a mayusculas
+	 * @return la cadena convertida en mayusculas
+	 * @author Pepe 
+	 */
+	public String pasarAMayusculas(String cadena) throws NullPointerException{
+		return cadena.toUpperCase();
+	}
+}
