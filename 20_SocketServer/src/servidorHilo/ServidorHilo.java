@@ -28,7 +28,7 @@ public class ServidorHilo {
 				//esperamos a que llegue un cliente
 				Socket enchufeAlCliente = servidor.accept();
 				System.out.println("Comunicación entrante");
-				new HiloEscuchador(enchufeAlCliente);
+				new HiloEscuchador(enchufeAlCliente);//abrimos un hilo nuevo y liberamos el hilo principal
 				//En vez de uno, le pasaremos tambien el treemap
 			}
 			

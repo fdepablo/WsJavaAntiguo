@@ -14,12 +14,12 @@ public class SocketCliente {
 		PrintStream salida = null;
 
 		String ipServidor = "127.0.0.1";//ip a la nos conectamos
-		int puertoServidor = 2017;//puerto por el que nos conectamos
+		int puertoServidor = 2017;//puerto por el que nos conectamos al servidor
 
 		try {
 			socketCliente = new Socket(ipServidor, puertoServidor);
-			entrada = new InputStreamReader(socketCliente.getInputStream());
-			salida = new PrintStream(socketCliente.getOutputStream());
+			entrada = new InputStreamReader(socketCliente.getInputStream());//entrada de datos del servidor (from)
+			salida = new PrintStream(socketCliente.getOutputStream());//salida de datos al servidor(to)
 			
 			Scanner sc = new Scanner(System.in);
 			System.out.println("CLIENTE: Introduzca los numeros a sumar");

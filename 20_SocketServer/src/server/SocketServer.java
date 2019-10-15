@@ -8,7 +8,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class SocketServer {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		//Este objeto es el que abrirá un puerto
 		ServerSocket servidorSocket = null;
 		PrintStream salida = null;
@@ -16,7 +16,7 @@ public class SocketServer {
 		Socket socketConexion = null;
 		
 		try {
-			servidorSocket = new ServerSocket(2017);
+			servidorSocket = new ServerSocket(2017);//puerto por el que escuchamos a los clientes
 			//estamos continuamente escuchando 
 			while(true){
 				//Lo ideal seria sacar esto en un hilo
@@ -33,9 +33,9 @@ public class SocketServer {
 				int iNumero1 = Integer.parseInt(operadores[0]);//3
 				int iNumero2 = Integer.parseInt(operadores[1]);//4
 				int resultado = iNumero1 + iNumero2;//7 
-				
+				//Thread.sleep(10000);//simulamos que tardamos un tiempo en calcular
 				salida = new PrintStream(socketConexion.getOutputStream());
-				salida.println("Hola soy el servidor, te reenvio la suma:" + resultado);
+				salida.println("resultado:" + resultado);
 				
 			}
 		} catch (IOException excepcion) {

@@ -28,7 +28,7 @@ public class ClienteHilo {
 			String texto = "";
 			while (!texto.equals("FIN")) {
 				System.out.println("Escribe mensaje (FIN para terminar): ");
-				texto = lector.nextLine();
+				texto = lector.nextLine();//mensaje leido del usuario
 				salida.write(texto.getBytes());
 				byte[] mensaje = new byte[100];
 				System.out.println("Esperando respuesta ...... ");
