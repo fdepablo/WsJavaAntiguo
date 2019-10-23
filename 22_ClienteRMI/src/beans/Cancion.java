@@ -3,13 +3,7 @@ package beans;
 import java.io.Serializable;
 
 public class Cancion implements Serializable{
-	
 
-
-	
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 7704932698362948241L;
 	
 	private int id;

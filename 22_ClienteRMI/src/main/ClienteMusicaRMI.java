@@ -15,7 +15,7 @@ public class ClienteMusicaRMI {
         Scanner lector = new Scanner(System.in);
 		try {
 			//Aqui la IP debera ser la IP del servidor
-			registry = LocateRegistry.getRegistry("192.168.56.1", 5055);
+			registry = LocateRegistry.getRegistry("192.168.0.14", 5055);
 			System.out.println("Hemos obtenido el registro");
 			//Una vez obtenido acceso al registro, hay que obtener el stub a partir del identificador 
 			//del objeto suministrado en el programa servidor.
@@ -23,7 +23,7 @@ public class ClienteMusicaRMI {
 			//que castearlo a un objeto de la interface MusicaInterfaceRMI
 			//para poder utilizar sus metodos
 			MusicaInterfaceRMI canciones = (MusicaInterfaceRMI) registry.lookup("miMusica"); 
-			System.out.println("Hemos obtenido el objeto remoto");
+			System.out.println("Hemos obtenido el objeto remoto (STUB)");
 			System.out.println(); // Retorno de carro.
 			
 			String buscado;
@@ -36,7 +36,9 @@ public class ClienteMusicaRMI {
 					case "T":
 						System.out.println("Escribe título canción: ");
 						buscado = lector.nextLine();
-						String titulo = canciones.buscarTitulo(buscado);
+						String titulo = canciones.buscarTitulo(buscado);//utilizo el objeto stub para mandar
+																	//mensajes al objeto real que esta en el 
+																	//servidor
 						if(!titulo.isEmpty())
 							System.out.println(titulo);
 						else
@@ -45,7 +47,7 @@ public class ClienteMusicaRMI {
 					case "B":
 						System.out.println("Escribe nombre banda: ");
 						buscado = lector.nextLine();
-						System.out.println(canciones.buscarBanda(buscado));
+						System.out.println(canciones.buscarBanda(buscado));//SIGUE SIENDO EL OBJETO STUB
 						break;
 					case "A":
 						System.out.println("Escribe nombre álbum: ");
@@ -64,6 +66,7 @@ public class ClienteMusicaRMI {
 						int id = Integer.parseInt(buscado);
 						Cancion c = canciones.buscarCancion(id);
 						System.out.println(c);
+						//System.out.println(c.getTitulo() + c.getAlbum());//puedo trabajar con objeto
 						break;
 					case "F":
 						System.out.println("Programa finalizado");

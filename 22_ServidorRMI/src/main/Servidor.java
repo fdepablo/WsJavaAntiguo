@@ -23,6 +23,9 @@ public class Servidor {
 			 * El método getHostAddress() puede desencadenar una excepción de tipo 
 			 * UnknownHostException si por alguna circunstancia no puede averiguar 
 			 * la dirección IP local.
+			 * 
+			 * Esto solo se usa para mostrar en el log de arranque la ip de nuestro
+			 * servidor
 			 */
 			host = InetAddress.getLocalHost().getHostAddress();//localhost
 		} catch (UnknownHostException e) {
