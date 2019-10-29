@@ -13,11 +13,13 @@ public class XMLToObject {
 		try {
 			JAXBContext contexto = JAXBContext.newInstance(Persona.class);
 			//Esta vez creamos un objeto que nos permite pasar
-			//de XML a Object
+			//de XML a Object, es decir deserializar
 			Unmarshaller u = contexto.createUnmarshaller();
 			File fichero = new File("Homer.xml");
 			if (fichero.exists()) {
 				Persona p = (Persona) u.unmarshal(fichero);
+				System.out.println(p.getApellido());
+				System.out.println(p.getNombre());
 				System.out.println(p);
 			} else {
 				System.out.println("Fichero XML Homer.xml no encontrado");

@@ -19,13 +19,14 @@ public class ObjectToXML {
 			 * contexto podremos convertir el objeto a un xml y a la inversa. 
 			 * Provoca una excepción de tipo JAXBException si la clase Persona 
 			 * no cumple los requisitos para la conversión a XML, es decir, 
-			 * contener las anotaciones necesarias y contar con un constructor 
+			 * contener las anotaciones necesarias y no cuenta con un constructor 
 			 * sin argumentos.
 			 */
 			contexto = JAXBContext.newInstance(Persona.class);//inyeccion de dependecia
 		} catch (JAXBException e) {
 			System.out.println("Error creando el contexto");
 			System.out.println(e.getMessage());
+			e.printStackTrace();
 			return;
 		}
 
@@ -34,6 +35,7 @@ public class ObjectToXML {
 			/*
 			 * Obtiene el objeto Marshaller asociado al contexto.
 			 * Con dicho objeto podremos convertir un objeto en xml
+			 * es decir, lo serializaremos
 			 */
 			m = contexto.createMarshaller();
 			/*
@@ -44,6 +46,8 @@ public class ObjectToXML {
 			 * false para ver la diferencia.
 			 */
 			m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+			
+			//creamos la persona y su direccion
 			Persona p = new Persona(1, "Homer", "Simpson", 37);
 			Direccion direccion = new Direccion();
 			direccion.setNombreVia("Gran Via");

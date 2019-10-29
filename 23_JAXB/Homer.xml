@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<persona idPersona="1">
+<persona id="1">
+    <nombre>Homer</nombre>
     <apellidos>Simpson</apellidos>
-    <direccion cp="28054">
+    <edad>37</edad>
+    <direccion>
+        <cp>28054</cp>
         <nombreVia>Gran Via</nombreVia>
         <tipoVia>Calle</tipoVia>
     </direccion>
-    <edad>37</edad>
-    <nombre>Homer</nombre>
 </persona>

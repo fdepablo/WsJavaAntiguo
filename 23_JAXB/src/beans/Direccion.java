@@ -4,13 +4,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
+//si solo ponemos esta anotacion, el root element sera el nombre de la clase
 @XmlRootElement
 public class Direccion {
 	private String tipoVia;
 	private String nombreVia;
 	private String cp;
 	
-	@XmlElement
 	public String getTipoVia() {
 		return tipoVia;
 	}
@@ -18,7 +18,6 @@ public class Direccion {
 		this.tipoVia = tipoVia;
 	}
 	
-	@XmlElement
 	public String getNombreVia() {
 		return nombreVia;
 	}
@@ -26,7 +25,6 @@ public class Direccion {
 		this.nombreVia = nombreVia;
 	}
 	
-	@XmlAttribute
 	public String getCp() {
 		return cp;
 	}

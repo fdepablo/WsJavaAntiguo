@@ -14,7 +14,6 @@
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.util.TreeMap"/>
-<fullyQualifiedTypeName name="java.rmi.Remote"/>
 <fullyQualifiedTypeName name="java.rmi.RemoteException"/>
 <fullyQualifiedTypeName name="beans.Cancion"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
@@ -49,7 +48,6 @@
 <fullyQualifiedTypeName name="negocio.GestorPersonas"/>
 <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
 <fullyQualifiedTypeName name="modelo.entidades.Empleado"/>
-<fullyQualifiedTypeName name="java.io.Serializable"/>
 <fullyQualifiedTypeName name="lambdas._01_interfacesrecargadas.InterfazSaludoManiana"/>
 <fullyQualifiedTypeName name="lambdas._04_lambdas.InterfazGenerica"/>
 <fullyQualifiedTypeName name="java.lang.Double"/>
@@ -60,4 +58,6 @@
 <fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="_03_sincronizado_01.DosPalabras"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.rmi.Remote"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
 </qualifiedTypeNameHistroy>

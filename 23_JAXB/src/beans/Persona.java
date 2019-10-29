@@ -8,15 +8,19 @@ import javax.xml.bind.annotation.XmlType;
 
 //Estas anotaciones sirven para que JAXB que es el motor de java para
 //convertir objetos a XML y a la inversa, sepa como hacerlo
+//serializar y deserializar
 
 //esta etiqueta estamos estableciendo el nombre de el nodo raiz en xml
+//etiqueta obligatoria
 @XmlRootElement(name="persona")
 //podemos hacer que las etiquetas salgan en un determinado orden
+//etiqueta opcional
 @XmlType(propOrder = {
 	    "idPersona",
 	    "nombre",
 	    "apellido",
-	    "edad"
+	    "edad",
+	    "direccion"
 	})
 public class Persona {
 	private int idPersona;
@@ -25,6 +29,7 @@ public class Persona {
 	private int edad;
 	private Direccion direccion;
 	
+	//JAXB necesita para funcionar del constructor por defecto de java
 	public Persona() {
 		
 	}
@@ -36,7 +41,9 @@ public class Persona {
 		this.edad = edad;
 	}
 
-	@XmlAttribute
+	//etiqueta que hace que el id de la persona se serialize como atributo de persona
+	//etiqueta opcional
+	@XmlAttribute(name = "id")
 	public int getIdPersona() {
 		return idPersona;
 	}
@@ -44,6 +51,7 @@ public class Persona {
 		this.idPersona = idPersona;
 	}
 
+	//etiqueta opcional
 	@XmlElement
 	public String getNombre() {
 		return nombre;
@@ -52,7 +60,7 @@ public class Persona {
 		this.nombre = nombre;
 	}
 
-	@XmlElement(name="apellido")
+	@XmlElement(name="apellidos")
 	public String getApellido() {
 		return apellido;
 	}
