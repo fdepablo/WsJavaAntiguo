@@ -14,7 +14,8 @@ public class FileToObject {
 	public static void main(String[] args) {
 		File file = new File("Simpson.txt");
 		
-		try(FileReader fr = new FileReader(file);BufferedReader br = new BufferedReader(fr)){
+		try(FileReader fr = new FileReader(file);
+		    BufferedReader br = new BufferedReader(fr)){
 			String json = br.readLine();
 			Gson gson = new Gson();
 			GrupoPersonas grupoPersonas = gson.fromJson(json, GrupoPersonas.class);
@@ -26,6 +27,5 @@ public class FileToObject {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
 	}
 }

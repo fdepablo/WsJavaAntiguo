@@ -7,7 +7,7 @@ public class Persona {
 	private int edad;
 	
 	public Persona() {
-		
+		super();
 	}
 	
 	public Persona(int id, String nombre, String apellido, int edad) {
