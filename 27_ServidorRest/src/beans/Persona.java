@@ -3,15 +3,14 @@ package beans;
 import java.io.Serializable;
 
 import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement(name="persona")
+@XmlRootElement
 public class Persona implements Serializable{
 	
 private static final long serialVersionUID = 3575918590687798833L;
 	
-	private int idPersona;
+	private int id;
 	private String nombre;
 	private String apellido;
 	private int edad;
@@ -21,21 +20,20 @@ private static final long serialVersionUID = 3575918590687798833L;
 	}
 	
 	public Persona(int id, String nombre, String apellido, int edad) {
-		this.idPersona = id;
+		this.id = id;
 		this.nombre = nombre;
 		this.apellido = apellido;
 		this.edad = edad;
 	}
 
 	@XmlAttribute
-	public int getIdPersona() {
-		return idPersona;
+	public int getId() {
+		return id;
 	}
-	public void setIdPersona(int idPersona) {
-		this.idPersona = idPersona;
+	public void setId(int id) {
+		this.id = id;
 	}
 
-	@XmlElement
 	public String getNombre() {
 		return nombre;
 	}
@@ -43,7 +41,6 @@ private static final long serialVersionUID = 3575918590687798833L;
 		this.nombre = nombre;
 	}
 
-	@XmlElement
 	public String getApellido() {
 		return apellido;
 	}
@@ -51,7 +48,6 @@ private static final long serialVersionUID = 3575918590687798833L;
 		this.apellido = apellido;
 	}
 
-	@XmlElement
 	public int getEdad() {
 		return edad;
 	}
@@ -59,4 +55,10 @@ private static final long serialVersionUID = 3575918590687798833L;
 		this.edad = edad;
 	}
 
+	@Override
+	public String toString() {
+		return "Persona [id=" + id + ", nombre=" + nombre + ", apellido=" + apellido + ", edad=" + edad + "]";
+	}
+
+	
 }

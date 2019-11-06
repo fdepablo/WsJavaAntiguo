@@ -8,6 +8,7 @@ import beans.MensajeHTML;
 
 @Path("mensajeHTML")
 public class WebServiceHTML {
+	
 	@GET
 	@Produces({"text/html"})
 	public String mostrarMensaje() {

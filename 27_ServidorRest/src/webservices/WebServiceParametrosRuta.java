@@ -11,12 +11,12 @@ import beans.Mensaje;
 @Path("mensajeParametros")
 public class WebServiceParametrosRuta {
 	
-	//localhost:8080/REST/mensajeParametros/path/pepe
+	//localhost:8080/27_ServidorRest/rest/mensajeParametros/path/pepe
 	@GET
-	@Path("path/{nombre}")
+	@Path("/path/{nom}")
 	@Produces({"text/html"})
-	public String mostrarMensajePath(@PathParam("nombre") String nom) {
-		Mensaje msg = new Mensaje("Hola " + nom);
+	public String mostrarMensajePath(@PathParam("nom") String nombre) {
+		Mensaje msg = new Mensaje("Hola " + nombre);
 		String html = "<!DOCTYPE html>";
 		html = html + "<html>";
 		html = html + "<head>";
@@ -32,10 +32,11 @@ public class WebServiceParametrosRuta {
 	}
 	
 	@GET
-	@Path("query")
+	@Path("query")//localhost:8080/27_ServidorRest/rest/mensajeParametros/query?nombre=felix
 	@Produces({"text/html"})
-	public String mostrarMensaje(@QueryParam("nombre") String nom) {
-		Mensaje msg = new Mensaje("Hola " + nom);
+	public String mostrarMensaje(@QueryParam("nombre") String nom, 
+			@QueryParam("apellidos") String apellidos) {
+		Mensaje msg = new Mensaje("Hola " + nom + " " + apellidos);
 		String html = "<!DOCTYPE html>";
 		html = html + "<html>";
 		html = html + "<head>";
