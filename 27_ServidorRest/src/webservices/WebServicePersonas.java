@@ -21,7 +21,7 @@ public class WebServicePersonas {
 	@Path("xml")
 	@Produces({"application/xml"})
 	public Persona personaXML() {
-		Persona p = new Persona(1,"RODOLFO", "LANGOSTINO", 47);
+		Persona p = obtenerPersona();
 		//al retornar la p las librerias jersey lo convierten automaticamente a xml
 		return p;	
 	}
@@ -30,12 +30,42 @@ public class WebServicePersonas {
 	@Path("json")
 	@Produces({"application/json"})
 	public Persona personaJSON() {
-		Persona p = new Persona(1,"RODOLFO", "LANGOSTINO", 47);
+		Persona p = obtenerPersona();
 		//al retornar la p las librerias jersey lo convierten automaticamente a json
 		return p;	
 	}	
 
+	private Persona obtenerPersona() {
+		//esto lo suyo seria hacer una consulta a la base de datos para obtener la persona
+		Persona p = new Persona(1,"RODOLFO", "LANGOSTINO", 47);
+		return p;
+	}
 	
+	//Es mas, lo suyo seria lo siguiente
+	@GET
+	@Path("xml/{id}")
+	@Produces({"application/xml"})
+	public Persona personaXMLPorId(@PathParam("id") int id) {
+		Persona p = obtenerPersonaPorId(id);
+		//al retornar la p las librerias jersey lo convierten automaticamente a xml
+		return p;	
+	}
+	
+	@GET
+	@Path("json/{id}")
+	@Produces({"application/json"})
+	public Persona personaJSONPorId(@PathParam("id") int id) {
+		Persona p = obtenerPersonaPorId(id);
+		//al retornar la p las librerias jersey lo convierten automaticamente a json
+		return p;	
+	}	
+	
+	private Persona obtenerPersonaPorId(int id) {
+		//simulamos acceso a bbdd
+		Persona p = new Persona(id,"Bud", "Spencer", 85);
+		return p;
+	}
+
 	//********************************************************************************
 	//Fuera de temario, pero para los más curiosos :)
 	@POST

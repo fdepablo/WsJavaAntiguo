@@ -13,10 +13,10 @@ public class WebServiceParametrosRuta {
 	
 	//localhost:8080/27_ServidorRest/rest/mensajeParametros/path/pepe
 	@GET
-	@Path("/path/{nom}")
+	@Path("/path/{nombre}")
 	@Produces({"text/html"})
-	public String mostrarMensajePath(@PathParam("nom") String nombre) {
-		Mensaje msg = new Mensaje("Hola " + nombre);
+	public String mostrarMensajePath(@PathParam("nombre") String n) {
+		Mensaje msg = new Mensaje("Hola " + n);
 		String html = "<!DOCTYPE html>";
 		html = html + "<html>";
 		html = html + "<head>";
@@ -32,10 +32,11 @@ public class WebServiceParametrosRuta {
 	}
 	
 	@GET
-	@Path("query")//localhost:8080/27_ServidorRest/rest/mensajeParametros/query?nombre=felix
+	@Path("query")//localhost:8080/27_ServidorRest/rest/mensajeParametros/query?nombre=felix&apellidos=Gomez
 	@Produces({"text/html"})
 	public String mostrarMensaje(@QueryParam("nombre") String nom, 
 			@QueryParam("apellidos") String apellidos) {
+		System.out.println("Recibiendo peticion del cliente!!!");
 		Mensaje msg = new Mensaje("Hola " + nom + " " + apellidos);
 		String html = "<!DOCTYPE html>";
 		html = html + "<html>";

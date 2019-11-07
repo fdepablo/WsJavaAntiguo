@@ -30,6 +30,7 @@ public class WebService {
 	public String mostrarMensaje() {
 		Mensaje msg = new Mensaje("Hola amigo");
 		return msg.getTexto();
+		//return "Hola mi primer servicio rest";
 	}
 	
 	//este metodo no será usado para mapear nada ya que no tiene ninguna anotación

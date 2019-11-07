@@ -8,7 +8,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class Persona implements Serializable{
 	
-private static final long serialVersionUID = 3575918590687798833L;
+	private static final long serialVersionUID = 3575918590687798833L;
 	
 	private int id;
 	private String nombre;
