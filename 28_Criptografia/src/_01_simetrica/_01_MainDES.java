@@ -29,6 +29,7 @@ public class _01_MainDES {
 	public static void main(String[] args) {
 		System.out.println("Probando sistema de encriptación con algoritmo DES");
 		try {
+			//generador de escítalas espartanas
 			KeyGenerator generador = KeyGenerator.getInstance("DES");
 			System.out.println("Paso 1: Se ha obtenido el generador de claves");
 			
@@ -36,6 +37,8 @@ public class _01_MainDES {
 			SecretKey paloEspartano = generador.generateKey();
 			System.out.println("Paso 2: Se ha obtenido la clave");
 
+			//objeto que nos permitira encriptar o desencriptar a a partir de un
+			//palo espartano
 			Cipher cifrador = Cipher.getInstance("DES");
 			System.out.println("Paso 3: Hemos obtenido el cifrador/descifrador");
 			
@@ -44,7 +47,7 @@ public class _01_MainDES {
 			cifrador.init(Cipher.ENCRYPT_MODE, paloEspartano);
 			System.out.println("Paso 4: Hemos configurado el cifrador");
 						
-			String mensajeOriginal = "La cripta mágica";
+			String mensajeOriginal = "La cripta mágica de un sitio pequeño o de un sitio grande";
 			//el cifrador trabaja con bytes
 			byte[] bytesMensajeOriginal = mensajeOriginal.getBytes();
 			//el cifrador devuelve una cadena de bytes
@@ -56,7 +59,8 @@ public class _01_MainDES {
 			System.out.println("Desciframos el mensaje cifrado para comprobar que comprueba "
 					+ "con el original");
 			//ahora el cifrador lo configuramos para que use la clave simetrica
-			//para desencriptar
+			//para desencriptar. Debemos de usar el mismo palo espartano para
+			//descifrar
 			cifrador.init(Cipher.DECRYPT_MODE, paloEspartano);
 			byte[] bytesMensajeDescifrado = cifrador.doFinal(bytesMensajeCifrado);
 			System.out.println("Mensaje Descifrado: " + new String(bytesMensajeDescifrado));

@@ -37,7 +37,7 @@ public class _02_MainAES {
 			
 			String mensajeOriginal = "La cripta mágica";
 			byte[] bytesMensajeOriginal = mensajeOriginal.getBytes();
-			byte[] bytesMensajeCifrado = descifrador.doFinal(bytesMensajeOriginal);
+			byte[] bytesMensajeCifrado = descifrador.doFinal(bytesMensajeOriginal);//cifrar el mensaje original
 			String mensajeCifrado = new String(bytesMensajeCifrado);
 			System.out.println("Mensaje Original: " + mensajeOriginal);
 			System.out.println("Mensaje Cifrado: " + mensajeCifrado);

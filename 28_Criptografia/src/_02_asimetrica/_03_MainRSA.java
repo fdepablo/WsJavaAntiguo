@@ -38,7 +38,7 @@ public class _03_MainRSA {
 			Cipher descifrador = Cipher.getInstance("RSA");
 			System.out.println("Paso 3: Hemos obtenido el descifrador");
 			
-			descifrador.init(Cipher.ENCRYPT_MODE, claves.getPublic());
+			descifrador.init(Cipher.ENCRYPT_MODE, claves.getPrivate());
 			System.out.println(claves.getPublic().getClass().getName());
 			System.out.println("Paso 4: Hemos configurado el descifrador para usar clave publica");
 			
@@ -51,7 +51,7 @@ public class _03_MainRSA {
 			System.out.println("Mensaje Cifrado: " + mensajeCifrado);
 			
 			System.out.println("AHORA VAMOS A DESCIFRAR EL MENSAJE CIFRADO USANDO LA CLAVE PRIVADA");
-			descifrador.init(Cipher.DECRYPT_MODE, claves.getPrivate());
+			descifrador.init(Cipher.DECRYPT_MODE, claves.getPublic());
 			byte[] bytesMensajeDescifrado = descifrador.doFinal(bytesMensajeCifrado);
 			System.out.println("Mensaje Descifrado: " + new String(bytesMensajeDescifrado));
 			
