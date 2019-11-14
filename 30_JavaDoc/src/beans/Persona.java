@@ -1,22 +1,24 @@
 package beans;
 
-/**
+//normalmente los javabeans no hace falta comentarlos tanto
+
+/** 
+ * 
+ * Clase que encapsula la información de las personas. Las personas tendrán un id y
+ * un nombre
+ * 
  * @author Felix de Pablo
  * @since 26/11/2018
  * @version 1.0
  * 
- * 
- * Clase que encapsula la información de las personas. Las personas tendrán un id, 
- * un nombre y un peso
  *
  */
 public class Persona {
 	private int id;
-	private String nombre;
-	private double peso;
+	private String nombre;	
 	
 	/**
-	 * Este metodo deuvel el id de una persona
+	 * Metodo que devuelve el id de una persona
 	 * @author Manuel Hernández
 	 * @since 27/11/2018
 	 * @return el id del la persona
@@ -39,10 +41,12 @@ public class Persona {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	public double getPeso() {
-		return peso;
+	
+	@Override
+	public String toString() {
+		return "Persona [id=" + id + ", nombre=" + nombre + "]";
 	}
-	public void setPeso(double peso) {
-		this.peso = peso;
-	}	
+
+	
+	
 }
