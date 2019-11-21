@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;_03_MainRSA.java&apos; to &apos;28_Criptografia/src/_02_asimetrica&apos;&#x0D;&#x0A;- Original project: &apos;28_Criptografia&apos;&#x0D;&#x0A;- Destination element: &apos;28_Criptografia/src/_02_asimetrica&apos;&#x0D;&#x0A;- Original element: &apos;_02_asimetrica._03_MainRSA.java&apos;" description="Copy compilation unit" destination="/src&lt;_02_asimetrica" element1="/src&lt;_02_asimetrica{_03_MainRSA.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1573755594293" units="1" version="1.0"/>
+</session>
