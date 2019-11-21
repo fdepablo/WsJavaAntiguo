@@ -7,10 +7,10 @@ public class Demonio implements Runnable {
 	@Override
 	public void run() {
 		System.out.println("Arrancado Demonio: " + Thread.currentThread().getName());
-		int acumulador = 0;
+		int contador = 0;
 		while(encendido){
-			System.out.println("Demonio: " + Thread.currentThread().getName()+ " dice: " +acumulador);
-			acumulador++;
+			System.out.println("Demonio: " + Thread.currentThread().getName()+ " dice: " + contador);
+			contador++;
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
@@ -22,7 +22,7 @@ public class Demonio implements Runnable {
 	
 	public void apagarDemonio(){
 		this.encendido = false;
-		System.out.println("Apagando demonio");
+		System.out.println("Apagando demonio...");
 	}
 
 }

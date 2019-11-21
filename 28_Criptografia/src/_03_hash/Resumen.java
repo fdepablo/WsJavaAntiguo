@@ -20,7 +20,7 @@ public class Resumen {
 		 * crear el resumen hash.
 		 */
 		//MessageDigest md = MessageDigest.getInstance("SHA-512");
-		MessageDigest md = MessageDigest.getInstance("MD5");
+		MessageDigest md = MessageDigest.getInstance("SHA-512");
 		md.update(cancion1);
 		md.update(cancion2);
 		md.update(cancion3);
