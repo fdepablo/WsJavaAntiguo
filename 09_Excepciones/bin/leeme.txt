@@ -1,3 +1,4 @@
 https://javadesdecero.es/intermedio/manejo-de-excepciones/
 
-Se puede continuar mirando ficheros
+Se puede continuar mirando ficheros para ver trys y finallys con ejemplos
+además de ver el try-with-resource

@@ -1,10 +1,8 @@
 package _01_excepciones;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main4 {
-
 	public static void main(String[] args) {
 		boolean continuar = false;
 		do{
@@ -18,12 +16,10 @@ public class Main4 {
 				int resultado = numerador/denominador;
 				System.out.println("El resultado es: " + resultado);
 				continuar = false;
-				//desde java 1.7 podemos capturar tambien dos o mas excepciones
-				//dentro de un mismo bloque
-			}catch(ArithmeticException | InputMismatchException ime){
-				System.out.println("No se puede dividir por cero o solo se admiten numeros");
-				continuar = true;
 			}catch(Exception e){
+				//gracias a la herencia y la jerarquia de las excepciones
+				//podemos agrupar todas las excepciones en una sola
+				//pero perdemos precisión
 				System.out.println("Algun tipo de error ocurrido");
 				continuar = true;
 			}finally {
@@ -35,7 +31,5 @@ public class Main4 {
 
 		
 		System.out.println("Programa terminado");
-
 	}
-
 }

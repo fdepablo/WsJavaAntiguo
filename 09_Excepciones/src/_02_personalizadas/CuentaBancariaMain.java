@@ -13,6 +13,8 @@ public class CuentaBancariaMain {
 			// Mostramos el mensaje definido en
 			// el constructor de la excepción
 			System.out.println(sne.getMessage());
+			//mostramos el mensaje sobreescrito
+			System.out.println(sne.getLocalizedMessage());
 			// Imprimimos la traza por pantalla
 			sne.printStackTrace();
 		}

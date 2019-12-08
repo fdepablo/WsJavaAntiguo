@@ -1,0 +1,50 @@
+package _01_excepciones;
+
+import java.io.PrintStream;
+import java.util.Scanner;
+
+public class Main6 {
+
+	public static void main(String[] args) {
+		boolean continuar = false;
+		do {
+			try {
+				int numero = pedirValor("Numerador");
+				System.out.println("numero :" + numero);
+				continuar = false;
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				continuar = true;
+				System.out.println("------------- e.getMessage() --------------");
+				System.out.println(e.getMessage());
+				System.out.println("------------- e.getLocalizedMessage() --------------");
+				System.out.println(e.getLocalizedMessage());
+				System.out.println("------------- e.getToString() --------------");
+				System.out.println(e.toString());
+				System.out.println("------------- e.printStackTrace --------------");
+				e.printStackTrace();
+				System.out.println("------------- e.printStackTrace --------------");
+				e.printStackTrace(new PrintStream(new File("ficheroError")));
+			
+			}
+		} while (continuar);
+	}
+
+	// si la excepcion arrojada es de tipo exception, entonces
+	// tenemos que capturarla
+	public static int pedirValor(String tipo) throws Exception {
+
+		int numero = 0;
+		try {
+			Scanner sc = new Scanner(System.in);
+			System.out.println("Introduzca el " + tipo);
+			numero = sc.nextInt();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			throw e;
+		}
+
+		return numero;
+	}
+}

@@ -16,4 +16,14 @@ public class SaldoNegativoException extends Exception {
 	public SaldoNegativoException(String mensajeError) {
 		super(mensajeError);
 	}
+
+	//Este metodo nos puede ayudar a encontrar el error de manera mas facil
+	//el mensaje puede ser el que queramos, pero esto nos puede decir
+	//el origen. Si no lo sobreescribimos se comporta igual que getMensaje()
+	@Override
+	public String getLocalizedMessage() {
+		return "Excepcion de saldo negativo";
+	}
+	
+	
 }

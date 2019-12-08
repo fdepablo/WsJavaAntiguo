@@ -1,49 +1,26 @@
 package _01_excepciones;
 
-import java.util.Scanner;
-
 public class Main3 {
 	public static void main(String[] args) {
-		Main3 main3 = new Main3();
-		boolean continuar = false;
-		do{
-			try {
-				int numero = main3.pedirValor("Numerador");
-				System.out.println("numero :" + numero);
-				continuar = false;
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				continuar = true;
+		// Aquí, num es más grande que denom
+		int nums[] = { 4, 8, 16, 32, 64, 128, 256, 512 };
+		int denom[] = { 2, 0, 4, 4, 0, 8 };
+		try { // try externo
+			for (int i = 0; i < nums.length; i++) {
+				try { // try anidado
+					System.out.println(nums[i] + " / " + denom[i] + " es " + nums[i] / denom[i]);
+				} catch (ArithmeticException exc) {
+					// Capturando la excepción de division por cero, si no
+					//puede capturar la excepcion se propaga al siguiente
+					//catch (ArrayIndexOutOfBoundsException)
+					System.out.println("No se puede dividir por cero!");
+				}
 			}
-		}while(continuar);
-		
-
-		main3.pedirValor2();
-		System.out.println("Fin de programa");
-	}
-	
-	//si la excepcion arrojada es de tipo exception, entonces
-	//tenemos que capturarla
-	public int pedirValor(String tipo) throws Exception{
-		
-		int numero = 0;
-		try {
-			Scanner sc = new Scanner(System.in);
-			System.out.println("Introduzca el " + tipo);
-			numero = sc.nextInt();
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			throw e;
+		} catch (ArrayIndexOutOfBoundsException exc) {
+			// Capturando la excepción de cuando nos pasamos del array
+			System.out.println("Alguna excepción ocurrió.");
+			System.out.println("ERROR: Programa terminado.");
 		}
-		
-		return numero;
 	}
-	
-	//en caso de que arrojemos RuntimeException
-	//no necesitamos capturarla
-	public int pedirValor2() throws RuntimeException{
-		throw new RuntimeException();
-	}
-	
+
 }

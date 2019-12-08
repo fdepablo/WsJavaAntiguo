@@ -3,7 +3,8 @@ package _01_excepciones;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-//mismo ejemplo pero de manera diferente
+//mismo ejemplo pero de manera diferente, para capturar el nominador y el denominador
+//por separado
 public class Main2 {
 	public static void main(String[] args) {
 		boolean continuar = false;
