@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;_01_excepciones.Main&apos; to &apos;Main1&apos;&#x0D;&#x0A;- Original project: &apos;09_Excepciones&apos;&#x0D;&#x0A;- Original element: &apos;_01_excepciones.Main&apos;&#x0D;&#x0A;- Renamed element: &apos;_01_excepciones.Main1&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Main&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;_01_excepciones{Main.java[Main" matchStrategy="1" name="Main1" qualified="false" references="true" similarDeclarations="false" stamp="1575838410610" textual="false" version="1.0"/>
+</session>
