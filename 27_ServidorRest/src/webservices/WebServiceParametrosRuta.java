@@ -11,7 +11,7 @@ import beans.Mensaje;
 @Path("mensajeParametros")
 public class WebServiceParametrosRuta {
 	
-	//localhost:8080/27_ServidorRest/rest/mensajeParametros/path/pepe
+	//0
 	@GET
 	@Path("/path/{nombre}")
 	@Produces({"text/html"})

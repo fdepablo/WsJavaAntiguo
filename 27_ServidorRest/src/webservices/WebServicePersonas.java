@@ -1,5 +1,7 @@
 package webservices;
 
+import java.util.ArrayList;
+
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
@@ -9,36 +11,52 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 
-import com.google.gson.Gson;
-
-import beans.Mensaje;
 import beans.Persona;
 
 @Path("personas")
 public class WebServicePersonas {
 	
 	@GET
-	@Path("xml")
+	@Path("xml/{id}")
 	@Produces({"application/xml"})
-	public Persona personaXML() {
-		Persona p = obtenerPersona();
+	public Persona personaXML(@PathParam("id") int id) {
+		Persona p = obtenerPersona(id);
 		//al retornar la p las librerias jersey lo convierten automaticamente a xml
 		return p;	
 	}
 	
 	@GET
-	@Path("json")
+	@Path("xml")
+	@Produces({"application/xml"})
+	public ArrayList<Persona>  listaPersonasXML() {
+		ArrayList<Persona> listaPersonas = obtenerPersonas();
+		//al retornar la p las librerias jersey lo convierten automaticamente a xml
+		return listaPersonas;	
+	}
+	
+	@GET
+	@Path("json/{id}")
 	@Produces({"application/json"})
-	public Persona personaJSON() {
-		Persona p = obtenerPersona();
+	public Persona personaJSON(@PathParam("id") int id) {
+		Persona p = obtenerPersona(id);
 		//al retornar la p las librerias jersey lo convierten automaticamente a json
 		return p;	
 	}	
 
-	private Persona obtenerPersona() {
+	private Persona obtenerPersona(int id) {
 		//esto lo suyo seria hacer una consulta a la base de datos para obtener la persona
-		Persona p = new Persona(1,"RODOLFO", "LANGOSTINO", 47);
+		Persona p = new Persona(id,"RODOLFO", "LANGOSTINO", 47);
 		return p;
+	}
+	
+	private ArrayList<Persona> obtenerPersonas() {
+		//esto lo suyo seria hacer una consulta a la base de datos para obtener la persona
+		Persona p1 = new Persona(1,"RODOLFO", "LANGOSTINO", 47);
+		Persona p2 = new Persona(1,"HARRY", "POTTER", 47);
+		ArrayList<Persona> listaPersonas = new ArrayList<Persona>();
+		listaPersonas.add(p1);
+		listaPersonas.add(p2);
+		return listaPersonas;
 	}
 	
 	//Es mas, lo suyo seria lo siguiente

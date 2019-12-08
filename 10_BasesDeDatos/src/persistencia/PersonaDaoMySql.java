@@ -224,5 +224,5 @@ public class PersonaDaoMySql implements PersonaDao{
 		// TODO Auto-generated method stub
 		return false;
 	}
-
+	
 }

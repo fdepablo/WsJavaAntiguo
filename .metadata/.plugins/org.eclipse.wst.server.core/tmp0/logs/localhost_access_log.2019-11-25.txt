@@ -1,0 +1,4 @@
+127.0.0.1 - - [25/Nov/2019:23:29:27 +0100] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [25/Nov/2019:23:30:04 +0100] "GET /27_ServidorRest/rest/personas/todas/sml HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [25/Nov/2019:23:30:04 +0100] "GET /favicon.ico HTTP/1.1" 404 1005
+0:0:0:0:0:0:0:1 - - [25/Nov/2019:23:30:09 +0100] "GET /27_ServidorRest/rest/personas/todas/xml HTTP/1.1" 200 262
