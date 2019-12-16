@@ -4,7 +4,10 @@
 		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\Users\vened\Pronoide\20_Material\Java\Core\WorkspaceJava\26_ClienteRest"/>
 			<item value="D:\Users\vened\Downloads\PSP Actividad 8 Cristina Alexandrova Kandova\Actividad 8 Agenda Segura"/>
 			<item value="D:\Users\vened\Pronoide\20_Material\Java\Basico\WorkspaceJavaBasico\REST"/>
 			<item value="D:\Users\vened\Pronoide\20_Material\Java\Basico\WorkspaceJavaBasico\27_ServidorRest"/>

@@ -1,4 +1,4 @@
-package _05_ficheros_objetos;
+package _06_ficheros_array_objetos;
 
 import java.io.Serializable;
 

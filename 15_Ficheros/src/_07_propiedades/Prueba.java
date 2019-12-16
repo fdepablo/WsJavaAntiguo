@@ -1,4 +1,4 @@
-package _06_propiedades;
+package _07_propiedades;
 
 public class Prueba {
 	public static void main(String[] args) {

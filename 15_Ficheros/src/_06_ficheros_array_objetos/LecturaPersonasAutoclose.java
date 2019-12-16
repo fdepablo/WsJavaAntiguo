@@ -1,5 +1,5 @@
 
-package _05_ficheros_objetos;
+package _06_ficheros_array_objetos;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -8,16 +8,13 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.util.List;
 
-public class LecturaPersonas {
+public class LecturaPersonasAutoclose {
 
 	public static void main(String[] args) {
-		File file = new File(EscrituraPersonas.nombreFichero);
-		FileInputStream fis;
-		ObjectInputStream ois = null;
+		File file = new File(EscrituraPersonasAutoclose.nombreFichero);
 		
-		try {
-			fis = new FileInputStream(file);
-			ois = new ObjectInputStream(fis);
+		try (FileInputStream fis = new FileInputStream(file);
+			 ObjectInputStream ois = new ObjectInputStream(fis);) {
 			List<Persona> listaPersona = (List<Persona>)ois.readObject();
 			System.out.println("Objeto leido");
 			System.out.println("Imprimiendo personas");
@@ -33,15 +30,7 @@ public class LecturaPersonas {
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} finally {
-			if(ois != null)
-				try {
-					ois.close();
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-		}
+		} 
 		
 		System.out.println("Cerrando programa");
 	}

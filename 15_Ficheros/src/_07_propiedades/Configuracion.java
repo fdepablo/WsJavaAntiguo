@@ -1,4 +1,4 @@
-package _06_propiedades;
+package _07_propiedades;
 
 import java.io.IOException;
 import java.io.InputStream;
