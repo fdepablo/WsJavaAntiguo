@@ -1,0 +1,7 @@
+CREATE TABLE `personas` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) DEFAULT NULL,
+  `edad` int(11) DEFAULT NULL,
+  `peso` double DEFAULT NULL,
+  PRIMARY KEY (`id`)
+);

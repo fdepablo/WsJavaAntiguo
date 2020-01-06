@@ -18,6 +18,7 @@ public class LecturaPersonas {
 		try {
 			fis = new FileInputStream(file);
 			ois = new ObjectInputStream(fis);
+			@SuppressWarnings("unchecked")
 			List<Persona> listaPersona = (List<Persona>)ois.readObject();
 			System.out.println("Objeto leido");
 			System.out.println("Imprimiendo personas");
