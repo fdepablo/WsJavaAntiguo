@@ -33,25 +33,33 @@ public class _02_InsertarPreparedStatement {
 		
 		// Paso 3: Interactuar con la BD 
 		try {
-			
+			//esta es la manera que hay que hacer si quereis aprobar
+			//porque? luego os lo cuento
+			//de momento ganamos en claridad
 			String sql = "INSERT INTO PERSONAS (NOMBRE, EDAD, PESO) " +
-				"VALUES (?, ?, ?)"; 
+				"VALUES (?, ?, ?)"; // en vez de poner los valores ponemos interrogantes
 			
-			String nombre = "DELGADO PEREZ CARLOS";
-			int edad = 45;
-			double peso = 89.7;
+			String nombre = "Ernion Güeslei";
+			int edad = 18;
+			double peso = 46;
+			
 			System.out.println("Se va a ejecutar la siguiente sentencia SQL:");
 			System.out.println(sql);
+			
+			//Notese que usamos PreparedStatement en vez de Statement
 			PreparedStatement sentencia;
 			sentencia = con.prepareStatement(sql);
-			sentencia.setString(1, nombre);
-			sentencia.setInt(2, edad);
+			//por un lado mandamos la sql, y por otro mandamos los parametros
+			//que la bbdd tiene que sustituir por las "?"
+			sentencia.setString(1, nombre);//decimos que la primera "?" que se encuentre le ponga el nombre
+			sentencia.setInt(2, edad);//
 			sentencia.setDouble(3, peso);
+			
 			int afectados = sentencia.executeUpdate();
 			System.out.println("Sentencia SQL ejecutada con éxito");
 			System.out.println("Registros afectados: "+afectados);
 		} catch (SQLException e) {
-			System.out.println("Error al añadir nuevo cliente");
+			System.out.println("Error al añadir una nueva persona");
 			System.out.println(e.getMessage());
 		}
 		

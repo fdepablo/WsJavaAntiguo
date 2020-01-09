@@ -33,9 +33,9 @@ public class _01_Insertar {
 		
 		// Paso 3: Interactuar con la BD 
 		try {
-			String nombre = "DELGADO PEREZ CARLOS";
-			int edad = 34;
-			double peso = 78.9;
+			String nombre = "Jarri Poter";
+			int edad = 17;
+			double peso = 48.9;
 			//esta menera NO se debe usar nunca, se debe usar SIEMPRE
 			//preparedStatement
 			String sql = "INSERT INTO PERSONAS " +
@@ -43,13 +43,16 @@ public class _01_Insertar {
 				"VALUES ('" + nombre + "', '" + edad + "', '" + peso +  "');";
 			System.out.println("Se va a ejecutar la siguiente sentencia SQL:");
 			System.out.println(sql);
-			Statement sentencia;
+			
+			//siguiente paso es mandar la query a traves de la conexión
+			Statement sentencia;//esta clase no se debe usar, el que la use en las practicas esta suspenso
 			sentencia = con.createStatement();
-			int afectados = sentencia.executeUpdate(sql);
+			int filasAfectadas = sentencia.executeUpdate(sql);
+			
 			System.out.println("Sentencia SQL ejecutada con éxito");
-			System.out.println("Registros afectados: "+afectados);
+			System.out.println("Registros afectados: " + filasAfectadas);
 		} catch (SQLException e) {
-			System.out.println("Error al añadir nuevo cliente");
+			System.out.println("Error al añadir una nueva persona");
 			System.out.println(e.getMessage());
 		}
 		
