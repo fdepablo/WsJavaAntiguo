@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.io.OutputStream"/>
-<fullyQualifiedTypeName name="java.io.IOException"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.util.TreeMap"/>
 <fullyQualifiedTypeName name="java.rmi.RemoteException"/>
 <fullyQualifiedTypeName name="beans.Cancion"/>
@@ -60,4 +57,7 @@
 <fullyQualifiedTypeName name="crearbbdd.CrearDerby"/>
 <fullyQualifiedTypeName name="persistencia.PersonaDaoMySql"/>
 <fullyQualifiedTypeName name="Persona"/>
+<fullyQualifiedTypeName name="Personas"/>
+<fullyQualifiedTypeName name="entidad.Persona"/>
+<fullyQualifiedTypeName name="entidad.Matematicas"/>
 </qualifiedTypeNameHistroy>

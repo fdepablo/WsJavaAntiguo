@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <syncparticipants>
-<participant displayName="Git (26_ClienteRes...Rest/src/beans)" id="org.eclipse.egit.ui.modelCompareParticipant" secondary_id="1575835765276">
+<participant displayName="Git (30_JavaDoc/sr...aDoc/src/beans)" id="org.eclipse.egit.ui.modelCompareParticipant" secondary_id="1578940992601">
 <data forceFetch="false" root="false">
-<org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS org.eclipse.team.ui.MODEL_PARTICIPANT_DESCRIPTION="26_ClienteRes...Rest/src/beans" startupAction="none">
+<org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS org.eclipse.team.ui.MODEL_PARTICIPANT_DESCRIPTION="30_JavaDoc/sr...aDoc/src/beans" startupAction="none">
 <org.eclipse.team.ui.MODEL_PARTICIPANT_REFRESH_SCHEDULE org.eclipse.team.ui.CTX_REFRESHSCHEDULE_ENABLED="false" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_INTERVAL="3600" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_RUNONCE="false"/>
 <org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS modelProviderId="org.eclipse.jdt.ui.modelProvider">
 <mappings>
-<resources resourcePath="/26_ClienteRest/src/beans" resourceType="2"/>
+<resources resourcePath="/30_JavaDoc/src/beans" resourceType="2"/>
 </mappings>
 </org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS>
 <org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS modelProviderId="org.eclipse.core.resources.modelProvider">
 <mappings>
-<resources resourcePath="/26_ClienteRest/src/beans" resourceType="2"/>
+<resources resourcePath="/30_JavaDoc/src/beans" resourceType="2"/>
 </mappings>
 </org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS>
 </org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS>
-<gitSynchronizeData container="D:/Users/vened/Pronoide/20_Material/Java/Core/WorkspaceJava/27_ServidorRest" dstRev="HEAD" inludeLocal="true" srcRev="HEAD">
+<gitSynchronizeData container="D:/Users/vened/Pronoide/20_Material/Java/Core/WorkspaceJava/30_JavaDocMVC" dstRev="HEAD" inludeLocal="true" srcRev="HEAD">
 <includedPaths>
-<path path="D:/Users/vened/Pronoide/20_Material/Java/Core/WorkspaceJava/26_ClienteRest/src/beans"/>
+<path path="D:/Users/vened/Pronoide/20_Material/Java/Core/WorkspaceJava/30_JavaDoc/src/beans"/>
 </includedPaths>
 </gitSynchronizeData>
 </data>
