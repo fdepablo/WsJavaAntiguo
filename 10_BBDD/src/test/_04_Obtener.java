@@ -1,9 +1,11 @@
 package test;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+
 
 public class _04_Obtener {
 
@@ -34,8 +36,9 @@ public class _04_Obtener {
 		
 		// Paso 3: Interactuar con la BD 
 		try {
-			Statement sentencia = con.createStatement();
-			ResultSet rs = sentencia.executeQuery("SELECT * FROM PERSONAS WHERE ID=2");
+			PreparedStatement sentencia = con.prepareStatement("SELECT * FROM PERSONAS WHERE ID=?");
+			sentencia.setInt(1, 1);
+			ResultSet rs = sentencia.executeQuery();
 			while (rs.next()) {
 				System.out.print(rs.getString("ID"));
 				System.out.print(" - "); 

@@ -55,7 +55,7 @@ public class _02_InsertarPreparedStatement {
 			sentencia.setInt(2, edad);//
 			sentencia.setDouble(3, peso);
 			
-			int afectados = sentencia.executeUpdate();
+			int afectados = sentencia.executeUpdate();//para actualizar la bbdd
 			System.out.println("Sentencia SQL ejecutada con éxito");
 			System.out.println("Registros afectados: "+afectados);
 		} catch (SQLException e) {

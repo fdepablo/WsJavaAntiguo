@@ -35,8 +35,8 @@ public class _03_Listado {
 		// Paso 3: Interactuar con la BD 
 		try {
 			Statement sentencia = con.createStatement();
-			ResultSet rs = sentencia.executeQuery("SELECT * FROM PERSONAS");
-			while (rs.next()) {
+			ResultSet rs = sentencia.executeQuery("SELECT * FROM PERSONAS");//no cambia registros
+			while (rs.next()) {//preguntamos si hay mas filas
 				System.out.print(rs.getString("ID"));
 				System.out.print(" - "); 
 				System.out.print(rs.getString("NOMBRE"));

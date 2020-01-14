@@ -41,14 +41,17 @@ public class _05_Modificar {
 			int edad = 60;
 			double peso = 99.7;
 			int id = 2;
+			
 			System.out.println("Se va a ejecutar la siguiente sentencia SQL:");
 			System.out.println(sql);
-			PreparedStatement sentencia;
-			sentencia = con.prepareStatement(sql);
+			
+			PreparedStatement sentencia = con.prepareStatement(sql);
+			
 			sentencia.setString(1, nombre);
 			sentencia.setInt(2, edad);
 			sentencia.setDouble(3, peso);
 			sentencia.setInt(4, id);
+			
 			int afectados = sentencia.executeUpdate();
 			System.out.println("Sentencia SQL ejecutada con éxito");
 			System.out.println("Registros afectados: "+afectados);

@@ -37,11 +37,13 @@ public class _06_Borrar {
 			String sql = "DELETE FROM PERSONAS WHERE ID=?"; 
 			
 			int dni = 2;
+			
 			System.out.println("Se va a ejecutar la siguiente sentencia SQL:");
 			System.out.println(sql);
-			PreparedStatement sentencia;
-			sentencia = con.prepareStatement(sql);
+			
+			PreparedStatement sentencia = con.prepareStatement(sql);
 			sentencia.setInt(1, dni);
+			
 			int afectados = sentencia.executeUpdate();
 			System.out.println("Sentencia SQL ejecutada con éxito");
 			System.out.println("Registros afectados: "+afectados);
