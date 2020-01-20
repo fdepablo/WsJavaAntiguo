@@ -2,8 +2,8 @@ package test;
 
 import java.util.List;
 
-import entidades.Persona;
-import negocio.GestorPersonas;
+import modelo.entidad.Persona;
+import modelo.negocio.GestorPersonas;
 
 public class TestObtener {
 	public static void main(String[] args) {

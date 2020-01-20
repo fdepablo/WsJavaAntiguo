@@ -1,8 +1,8 @@
-package persistencia.interfaces;
+package modelo.persistencia.interfaces;
 
 import java.util.List;
 
-import entidades.Persona;
+import modelo.entidad.Persona;
 
 public interface PersonaDao {
 	boolean alta(Persona p);

@@ -1,4 +1,4 @@
-package entidades;
+package modelo.entidad;
 
 public class Persona {
 	private int id;

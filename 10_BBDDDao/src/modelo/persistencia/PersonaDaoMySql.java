@@ -1,4 +1,4 @@
-package persistencia;
+package modelo.persistencia;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -8,8 +8,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import entidades.Persona;
-import persistencia.interfaces.PersonaDao;
+import modelo.entidad.Persona;
+import modelo.persistencia.interfaces.PersonaDao;
 
 public class PersonaDaoMySql implements PersonaDao{
 

@@ -1,11 +1,11 @@
-package negocio;
+package modelo.negocio;
 
 import java.util.List;
 
-import entidades.Persona;
-import persistencia.PersonaDaoDerby;
-import persistencia.PersonaDaoMySql;
-import persistencia.interfaces.PersonaDao;
+import modelo.entidad.Persona;
+import modelo.persistencia.PersonaDaoDerby;
+import modelo.persistencia.PersonaDaoMySql;
+import modelo.persistencia.interfaces.PersonaDao;
 
 public class GestorPersonas {
 	

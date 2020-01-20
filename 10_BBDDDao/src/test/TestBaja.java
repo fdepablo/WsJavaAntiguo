@@ -1,6 +1,6 @@
 package test;
 
-import negocio.GestorPersonas;
+import modelo.negocio.GestorPersonas;
 
 public class TestBaja {
 	public static void main(String[] args) {
