@@ -1,5 +1,6 @@
+package depuracion;
 
-public class _05_Depuracion {
+public class _00_Depuracion {
 	//para depurar el codigo en vez de ejecutar con run as -> run se hara con debug as -> debug
 	public static void main(String[] args) {
 		//podemos poner puntos de interrupcion
