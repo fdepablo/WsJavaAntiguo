@@ -24,9 +24,12 @@ public class _00_Inicial {
 
 	/**
 	 * @throws java.lang.Exception
+	 * Las anotaciones le dicen a la maquina virtual java instrucciones en tiempo
+	 * de ejecudion o de compilacion
 	 */
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
+		
 	}
 
 	/**

@@ -37,7 +37,7 @@ public class _01_TestProducto {
 		prod.setBeneficio(1.3);
 		//RESULTADO ESPERADO
 		// ya que el pvp es el Pvc * el beneficio
-		double res = 100.00 * 1.3;
+		double res = 100.00 * 1.3;//130
 
 		/* parametros assertEquals, para tipo double se debe poner un delta
 		 * expected - expected value

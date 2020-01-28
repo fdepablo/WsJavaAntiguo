@@ -106,7 +106,7 @@ public class Producto{
 	}
 
 	public double damePvpIva(){
-		double res = this.damePvp() * this.iva;
+		double res = this.pvc * this.beneficio * this.iva;
 		return res;
 	}
 

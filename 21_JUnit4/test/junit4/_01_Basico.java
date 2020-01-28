@@ -12,6 +12,8 @@ import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
 
+import programa.Matematicas;
+
 public class _01_Basico {
 
 	/*
@@ -22,6 +24,7 @@ public class _01_Basico {
 	 * integración
 	 * 
 	 * Podemos ejecutarlas con boton derecho -> run as.. -> JUnit Test
+	 * 
 	 * Posibles colores al lanzar la prueba
 	 * Verde, la prueba ha ido bien
 	 * Azul, la prueba ha ido mal, alguna aserción no se ha cumplido
@@ -30,26 +33,30 @@ public class _01_Basico {
 	
 	@BeforeClass
 	public static void antesDeTodosLosTest(){//Debe ser static
-		System.out.println("Esto se ejecuta UNA sola vez, al PRINCIPIO de todo");
+		//este metodo suele usarse para arrancar parametros que van a ser usados
+		//por todas las pruebas
+		System.out.println("Esto se ejecuta UNA sola vez, al PRINCIPIO de toda la bateria de pruebas");
 	}
 	
 	
 	@Before
 	public void antesDeCadaTest(){
-		System.out.println("Se ejecuta ANTES de cada test");
+		System.out.println("Se ejecuta ANTES de cada @Test");
 	}
 	
 	@After
 	public void despuesDeCadaTest(){
-		System.out.println("Se ejecuta DESPUES de cada test");
+		System.out.println("Se ejecuta DESPUES de cada @Test");
 	}
 	
 	@AfterClass
 	public static void despuesDeTodosLosTest(){//Debe ser static
-		System.out.println("Esto se ejecuta UNA sola vez, al FINAL de todo");
+		System.out.println("Esto se ejecuta UNA sola vez, al FINAL de toda la bateria de pruebas");
 	}
 	
 	//Esta anotación sería un test unitario
+	//Cuando ejecutemos este Suit de pruebas unitarias
+	//se ejecutaran todos los metodos anotados con @Test
 	@Test
 	public void acabaEnMundoTest() {
 		System.out.println("Test 1");
@@ -58,6 +65,9 @@ public class _01_Basico {
 		//para dar por valida una prueba
 		//en este caso esperamos que sea cierta una condición
 		//En cuanto llegue a un assert se acaba la prueba
+		
+		//Aqui dentro deberiamos invocar a los metodos de nuestra aplicacion
+		//que queremos probar
 		assertTrue(cadena.endsWith("mundo"));
 	}
 	
@@ -69,6 +79,7 @@ public class _01_Basico {
 		assertFalse(cadena.endsWith("hola"));
 	}
 	
+	
 	@Test
 	public void esIgualAHolaMundoTest() {
 		System.out.println("Test 3");
@@ -78,6 +89,7 @@ public class _01_Basico {
 		//No solo para String, para todos los primitivos, objetos, etc
 	}
 	
+	
 	@Test
 	public void noEsIgualAPepeTest() {
 		System.out.println("Test 4");
@@ -85,7 +97,20 @@ public class _01_Basico {
 		//Que no sean iguales (según el metodo equals())
 		assertNotEquals("Pepe",cadena);
 	}
+	
+	@Test
+	public void noCoincideNumero() {
+		System.out.println("Test 4.1");
+		int n1 = 6;
+		int n2 = 7;
+		
+		Matematicas m = new Matematicas();
+		int resultado = m.sumar(n1, n2);
+		
+		assertEquals(13,resultado);
+	}
 
+	
 	@Test
 	public void esNullTest() {
 		System.out.println("Test 5");
@@ -94,6 +119,7 @@ public class _01_Basico {
 		assertNull(cadena);
 	}
 	
+	
 	@Test
 	public void noEsNullTest() {
 		System.out.println("Test 6");
@@ -101,6 +127,7 @@ public class _01_Basico {
 		//Esperamos que no sea nulo
 		assertNotNull(cadena);
 	}
+	
 	
 	//Podemos tambien que ocurra alguna excepcion
 	@Test(expected=IndexOutOfBoundsException.class)
@@ -122,6 +149,7 @@ public class _01_Basico {
 		System.out.println("Fin del Test 8");
 	}
 	
+	
 	@Test
 	public void assertArrayEqualsTest() throws InterruptedException{
 		System.out.println("Test 9");
@@ -134,18 +162,21 @@ public class _01_Basico {
 		assertArrayEquals(lista1.toArray(), lista2.toArray());
 	}
 	
+	
 	@Test
 	public void assertSameTest() throws InterruptedException{
 		System.out.println("Test 10");
 		String s1 = new String("Hola");
 		//s1 = "Hola";
-		String s2 = "Hola";
+		String s2 = new String("Hola");
 		//Comprobamos si apuntan al mismo objeto(no invoca a equal, 
 		//es si la referencia apunta al mismo objeto)
+		s1 = s2;
 		assertSame(s1, s2);
 		//tambien tenemos assertNotSame(s1,s2)
 	}
 	
+	/*
 	//Podemos usar esta etiqueta si queremos ignorar algun test en un momento
 	//dado
 	//@Ignore("De momento no la queremos pasar")
@@ -155,5 +186,6 @@ public class _01_Basico {
 		//podemos fallar el test bajo alguna cóndición
 		if(true) fail("Con esto fallamos");
 		System.out.println("Fin del Test 9");
-	}
+	}*/
+	
 }
