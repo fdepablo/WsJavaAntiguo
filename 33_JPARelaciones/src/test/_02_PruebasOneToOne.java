@@ -6,7 +6,6 @@ import javax.persistence.Persistence;
 
 import modelo.entidad.Cliente;
 import modelo.entidad.DatosBancarios;
-import modelo.entidad.Direccion;
 
 public class _02_PruebasOneToOne {
 
@@ -17,8 +16,11 @@ public class _02_PruebasOneToOne {
 		EntityManager em = null;
 
 		DatosBancarios db = new DatosBancarios(null, "Bankia", 6000, null);
+		//le pasamos la referencia al cliente de los datos bancarios
 		Cliente c = new Cliente(null, "Hommer", "555", db);
-		//Si la relaciï¿½n es bidireccional debemos cruzar las referencias:
+		//Si la relación es bidireccional debemos cruzar las referencias:
+		//si no lo hacemos, la columna fk de la tabla de datos bancarios
+		//aparecería en null
 		db.setCliente(c);
 				
 		System.out.println("==============================================");
@@ -37,30 +39,34 @@ public class _02_PruebasOneToOne {
 		//este falla ya que no hay cascade en la clase DatosBancarios
 		//em.persist(db); //-> se inserta el cliente por el cascade de DatosBancarios
 		
-		//em.getTransaction().commit(); 
-		//em.close();		
+		em.getTransaction().commit(); 
+		em.close();		
 		
 		
 		//si queremos dar primero un cliente y luego unos datos bancarios
 		//primero dariamos de alta el cliente y luego le buscariamos
 		//y se lo asociariamos esos datos bancarios
-		/*
+		
 		em = emf.createEntityManager();
 		em.getTransaction().begin();
 		
-		DatosBancarios db2 = new DatosBancarios(null, "Bankia", 6000, null);
-		Cliente c1 = em.find(Cliente.class, 5);
-		db2.setCliente(c1);
+		Cliente c1 = new Cliente(null, "Lisa", "555", null);
+		em.persist(c1);
+		em.getTransaction().commit(); 
 		
+		em.getTransaction().begin();
+		DatosBancarios db2 = new DatosBancarios(null, "ING", 8008, null);
+		c1 = em.find(Cliente.class, 2);
+		db2.setCliente(c1);
 		em.persist(db2);
 		
 		em.getTransaction().commit(); 
-		em.close();
-		*/
+		em.close();		
 		
-		emf.close();		
+		//Prueba
 		
+		//cerramos el entitymanager
+		emf.close();			
 	}
-	
 	
 }

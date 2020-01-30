@@ -1,7 +1,6 @@
 package test;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import javax.persistence.EntityManager;
@@ -21,8 +20,8 @@ public class _04_PruebasManyToMany {
 		Cliente c2 = new Cliente(null, "Terence Hill", "777", null);
 		Cliente c3 = new Cliente(null, "M.A. Baracus", "999", null);
 
-		Comercial co1 = new Comercial(null,"Comercial1",null);
-		Comercial co2 = new Comercial(null,"Comercial2",null);
+		Comercial co1 = new Comercial(null,"Harry Potter",null);
+		Comercial co2 = new Comercial(null,"Ron",null);
 		
 		//El comercial1 tiene a los cliente 1 y 2
 		List<Cliente> clientes1 = new ArrayList<Cliente>();
@@ -42,7 +41,7 @@ public class _04_PruebasManyToMany {
 
 		List<Comercial> comerciales2 = new ArrayList<Comercial>();
 		comerciales2.add(co1);
-		comerciales2.add(co1);		
+		comerciales2.add(co2);		
 		c2.setComerciales(comerciales2);
 		
 		List<Comercial> comerciales3 = new ArrayList<Comercial>();

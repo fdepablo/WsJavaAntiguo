@@ -18,7 +18,7 @@ public class DatosBancarios {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	private String banco;
-	@Column(name = "numero_tc")
+	@Column(name = "numero_cuenta")
 	private Integer numeroTC;
 
 	// Relaci�n de uno a uno con dos tablas

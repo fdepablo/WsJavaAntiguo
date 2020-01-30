@@ -7,7 +7,6 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
 import modelo.entidad.Cliente;
-import modelo.entidad.DatosBancarios;
 import modelo.entidad.Direccion;
 
 public class _01_PruebasClienteDireccion {
