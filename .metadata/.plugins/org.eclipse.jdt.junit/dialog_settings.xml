@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="JUnitWizards">
-		<item value="true" key="NewTestCaseCreationWizardPage.USE_TEARDOWNCLASS"/>
-		<item value="true" key="NewTestCaseCreationWizardPage.USE_SETUP"/>
-		<item value="true" key="NewTestCaseCreationWizardPage.USE_TEARDOWN"/>
-		<item value="false" key="NewTestCaseCreationWizardPage.USE_CONSTRUCTOR"/>
-		<item value="true" key="NewTestCaseCreationWizardPage.USE_SETUPCLASS"/>
+		<item key="NewTestCaseCreationWizardPage.USE_TEARDOWNCLASS" value="true"/>
+		<item key="NewTestCaseCreationWizardPage.USE_SETUP" value="true"/>
+		<item key="NewTestCaseCreationWizardPage.USE_TEARDOWN" value="true"/>
+		<item key="NewTestCaseCreationWizardPage.USE_CONSTRUCTOR" value="false"/>
+		<item key="NewTestCaseCreationWizardPage.USE_SETUPCLASS" value="true"/>
 	</section>
 </section>

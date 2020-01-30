@@ -14,5 +14,7 @@
 	<section name="expressionHistory">
 	</section>
 	<section name="conditionHistory">
+		<item key="conditionHistoryEntry_0" value="i==5"/>
+		<item key="conditionHistoryEntryCount" value="1"/>
 	</section>
 </section>

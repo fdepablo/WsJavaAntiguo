@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="beans.Cancion"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="main.OtraClase"/>
-<fullyQualifiedTypeName name="main.OtraClaseMas"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
-<fullyQualifiedTypeName name="entidades.Coche"/>
-<fullyQualifiedTypeName name="negocio.CochesSingleton"/>
-<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlType"/>
-<fullyQualifiedTypeName name="java.security.GeneralSecurityException"/>
 <fullyQualifiedTypeName name="Contacto"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="Encriptador"/>
@@ -37,7 +28,6 @@
 <fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="_03_sincronizado_01.DosPalabras"/>
 <fullyQualifiedTypeName name="java.rmi.Remote"/>
-<fullyQualifiedTypeName name="java.io.Serializable"/>
 <fullyQualifiedTypeName name="javax.ws.rs.POST"/>
 <fullyQualifiedTypeName name="javax.ws.rs.Consumes"/>
 <fullyQualifiedTypeName name="com.google.gson.Gson"/>
@@ -56,8 +46,18 @@
 <fullyQualifiedTypeName name="persistencia.PersonaDaoMySql"/>
 <fullyQualifiedTypeName name="Persona"/>
 <fullyQualifiedTypeName name="Personas"/>
-<fullyQualifiedTypeName name="entidad.Persona"/>
 <fullyQualifiedTypeName name="entidad.Matematicas"/>
 <fullyQualifiedTypeName name="com.mysql.jdbc.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+<fullyQualifiedTypeName name="entidad.Persona"/>
+<fullyQualifiedTypeName name="refactorizacion.Clase1"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="programa.Matematicas"/>
+<fullyQualifiedTypeName name="modelo.entidad.DatosBancarios"/>
 </qualifiedTypeNameHistroy>
