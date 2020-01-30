@@ -4,6 +4,7 @@ import java.util.Date;
 /**
  * Ejemplo de creación de documentación para Javadoc.<br/>
  * Podemos incluir etiquetas HTML para enriquecer el texto.
+ * 
  * Aqui deberia ir una descripción de lo que hace la clase
  * 
  * En java doc tenemos además anotaciones, para que cuando generemos

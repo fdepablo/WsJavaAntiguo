@@ -13,7 +13,6 @@ public class PruebaDocMain {
 		//de entender el codigo
 		pd.metodoDos(34, new Date());
 		pd.metodoTres("texto");
-
 	}
 
 }
