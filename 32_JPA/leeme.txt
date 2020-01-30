@@ -40,3 +40,6 @@ Entonces jpa nos creara todas las tablas si no existieran
 Podemos hacerlo mediante las pestañas (ver dibujo jpa_configuracion1)
 
 Las tablas se crearan la primera vez que creemos una query a la bbdd
+
+ TUTORIALES
+http://www.java2s.com/Tutorials/Java/JPA/index.htm
