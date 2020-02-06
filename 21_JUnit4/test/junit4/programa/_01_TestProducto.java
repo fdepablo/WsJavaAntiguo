@@ -62,6 +62,20 @@ public class _01_TestProducto {
 		double res = 100.00 * 1.3 * 1.21;
 		
 		assertEquals (res, prod.damePvpIva(), 0.01);
+		
+		//hay veces que queremos o necesitamos pasar más de una prueba
+		//a la misma funcion, ya sea porque queremos asegurarnos que 
+		//funciona adecuadamente. Por lo tanto, es posible que queramos
+		//pasarle varias pruebas
+		prod.setPvc(200);
+		prod.setIva(1.21);
+		prod.setBeneficio(1.3);
+
+		res = 200.00 * 1.3 * 1.21;
+		
+		//en cuanto falle algún assert, la prueba falla
+		assertEquals (res, prod.damePvpIva(), 0.01);
+		
 	}
 
 }

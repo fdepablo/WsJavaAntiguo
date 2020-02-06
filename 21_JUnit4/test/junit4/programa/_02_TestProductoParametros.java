@@ -14,14 +14,16 @@ import programa.Producto;
 
 /**
  * En algunas ocasiones no es suficiente comprobar el resultado con un solo dato, 
- * necesitando enviar una batería de datos para comprobar que el método funciona correctamente.
+ * necesitando enviar una batería de datos(varios datos)
+ * para comprobar que el método funciona correctamente.
  */
 //Lo primero que vamos a hacer es decir a JUNIT que esta clase de pruebas
 //unitarias se va a ejecutar muchas veces, tantas como bateria de datos tengamos
 @RunWith(Parameterized.class)
 public class _02_TestProductoParametros {
-	//tenemos dos atributos el pvc y el pvpEsperado
-	private double pvc;
+	//tenemos dos atributos el pvpCalculado y el pvpEsperado
+	//el pvpCalculado será el que me devuelve la función dame.Pvp()
+	private double pvpCalculado;
 	private double pvpEsperado;
 
 	//notese que el constructor tiene dos parametros
@@ -29,12 +31,12 @@ public class _02_TestProductoParametros {
 		Producto prod = new Producto();
 		prod.setPvc(pvc);
 
-		this.pvc = prod.damePvp();
+		this.pvpCalculado = prod.damePvp();
 		this.pvpEsperado = pvpEsperado;
 	}
 
 	//Esta etiqueta nos dice que de este metodo van a salir los parametros con
-	//la batería de datos. Esta coleccion de datos sera la que entren por el constructor
+	//la batería de datos. Esta coleccion de datos sera la que entren por el CONSTRUCTOR
 	//de la clase, dicho de otra manera, se van a crear tantos objetos de esta clase
 	//como objetos haya dentro de esta coleccion, y de cada objeto que se cree, se 
 	//ejecutarán todos sus metodos anotados con @Test
@@ -44,7 +46,7 @@ public class _02_TestProductoParametros {
 		//En este caso, crearemos 3 objetos dentro de este array bidimensional
 		//el primer valor representará el pvc y el segundo valor representara
 		//el pvpEsperado. Por lo tanto la batería de pruebas en este caso
-		//constará de 3 pvc y 3 pvpEsperados, si quisieramos más pruebas, 
+		//constará de 3 pvpCalculados y 3 pvpEsperados, si quisieramos más pruebas, 
 		//solamente deberíamos poner mas objetos dentro de este array
 		//
 		Object[][] data = new Object[][] { 
@@ -60,6 +62,7 @@ public class _02_TestProductoParametros {
 	//etiquetado con @Parameters
 	@Test
 	public void test() {
-		assertEquals(pvc, pvpEsperado, 0.01);
+		assertEquals(pvpCalculado, pvpEsperado, 0.01);
 	}
+	
 }
