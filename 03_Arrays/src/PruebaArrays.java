@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class PruebaArrays {
 	public static void main(String[] args) {
@@ -25,5 +26,7 @@ public class PruebaArrays {
 		for(int i : arrayEnterosDirectamente){
 			System.out.println("El valor es: " + i);
 		}
+		System.out.println("===========================");
+		System.out.println(arrayEnterosDirectamente);
 	}
 }

@@ -3,6 +3,7 @@
 package main;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -32,7 +33,7 @@ public class Main {
 		
 		//listaStrings.size();
 		//
-		listaStrings.remove(1);
+		//listaStrings.remove(1);
 		
 		
 		Set<String> conjuntoStrings = new HashSet<>();
@@ -76,7 +77,12 @@ public class Main {
 		Collections.sort(listaStrings);//ordenamos una lista
 		metodoRecorre(listaStrings);
 		
-		
+		String[] array = {"Felix","Pepe"};
+		System.out.println("=============");
+		System.out.println(array);
+		System.out.println(Arrays.asList(array));
+		//un array no tiene sobrescrito el metodo toString, y un array
+		//dinamico si que podemos hacerlo
 	}
 	
 	//ESte metodo no esta aqui, esta en otra clase muy muy lejana
