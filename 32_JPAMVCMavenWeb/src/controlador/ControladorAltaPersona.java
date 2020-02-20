@@ -42,12 +42,15 @@ public class ControladorAltaPersona extends HttpServlet {
 		switch (respuesta) {
 		case -2:
 			//caso nombre < 3
+			
 			break;
 		case -1:
 			//caso edad <19
+			
 			break;
 		case 0:
 			//caso error conexión
+			
 			break;
 		default:
 			// en caso de que se haya dado de alta
