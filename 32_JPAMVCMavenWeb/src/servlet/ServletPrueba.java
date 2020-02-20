@@ -28,10 +28,14 @@ public class ServletPrueba extends HttpServlet {
 	//GET
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
+		//los parametros siempre llegan en formato cadena
+		String id = request.getParameter("id");
+		int iId = Integer.parseInt(id);
+		
 		EntityManagerFactory factoria = Persistence.createEntityManagerFactory("32_JPAMVCMavenWeb");
 		EntityManager em = factoria.createEntityManager();
 		
-		Persona p = em.find(Persona.class, 2);
+		Persona p = em.find(Persona.class, iId);
 		System.out.println(p);
 		
 		System.out.println("Fin de obtener persona");
