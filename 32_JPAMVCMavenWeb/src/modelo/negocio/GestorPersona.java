@@ -1,5 +1,7 @@
 package modelo.negocio;
 
+import java.util.List;
+
 import modelo.entidad.Persona;
 import modelo.persistencia.DaoPersona;
 
@@ -18,6 +20,7 @@ public class GestorPersona {
 	 * alta
 	 */
 	public int alta(Persona p) {
+		//esto serian reglas de negocio
 		if(p.getNombre().length() < 3) {
 			return -1;
 		}
@@ -30,5 +33,11 @@ public class GestorPersona {
 		DaoPersona daoPersona = new DaoPersona();
 		int id = daoPersona.insertar(p);
 		return id;
+	}
+	
+	public List<Persona> listar(){
+		//aqui podriamos poner reglas de negocio
+		DaoPersona daoPersona = new DaoPersona();
+		return daoPersona.listar();
 	}
 }

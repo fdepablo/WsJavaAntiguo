@@ -1,9 +1,12 @@
 package modelo.persistencia;
 
+import java.util.List;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
+import javax.persistence.Query;
 
 import modelo.entidad.Persona;
 
@@ -50,5 +53,17 @@ public class DaoPersona {
 		cerrarConexion();
 		//una vez persistido se me actualiza el objeto con su id, y podemos devolverlo
 		return p.getId();
+	}
+	
+	@SuppressWarnings("unchecked")
+	public List<Persona> listar() {
+		if(!abrirConexion()) {
+			return null;
+		}
+		
+		//para hacer la consulta debemos de usar JPQL
+		Query query = em.createQuery("select p from Persona p");
+		List<Persona> listaPersonas = query.getResultList();
+		return listaPersonas;
 	}
 }
