@@ -452,7 +452,7 @@
 		<item key="FinalModifier" value="false"/>
 	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item key="index" value="6"/>
+		<item key="index" value="8"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
@@ -460,7 +460,7 @@
 		<item key="create_package_info_java" value="false"/>
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item key="pageIndex" value="0"/>
+		<item key="pageIndex" value="2"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.dialogs.FilteredTypesSelectionDialog">
 		<item key="ShowStatusLine" value="true"/>
